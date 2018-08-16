@@ -28,38 +28,38 @@
               <tspan x="226.316216" y="264">Press</tspan>
             </text>
           </g>
-          <g id="limo-side" class="svg-link radial-link " data-gradient="limo-side-gradient" data-href="http://jejulaf.com/limo-limo" transform="translate(155.000000, 939.000000)">
+          <g id="limo-side" class="svg-link radial-link " :class="{ active: actived('/limolimo') }" @click="navigateTo('/limolimo')" data-gradient="limo-side-gradient" data-href="http://jejulaf.com/limo-limo" transform="translate(155.000000, 939.000000)">
             <rect id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" x="0.8" y="0" width="217.3" height="217.996544"></rect>
             <text id="LimoLimo" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="67.3178719" y="103.199685">Limo</tspan>
               <tspan x="67.3178719" y="150.199685">Limo</tspan>
             </text>
           </g>
-          <g id="events-side" class="svg-link vertical-link " data-gradient="events-side-gradient" data-href="http://jejulaf.com/events" transform="translate(3.000000, 777.000000)">
+          <g id="events-side" class="svg-link vertical-link " :class="{ active: actived('/events') }" @click="navigateTo('/events')" data-gradient="events-side-gradient" transform="translate(3.000000, 777.000000)">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="153.400024 163 370.200024 163 370.200024 0 0.400024414 0 0.400024414 380.1 155.100024 380.1"></polygon>
             <text id="Events" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="37.578" y="70.682">Events</tspan>
             </text>
           </g>
-          <g id="channel-side" class="svg-link " data-gradient="channel-side-gradient" data-href="http://jejulaf.com/channel" transform="translate(3.000000, 1157.000000)">
+          <g id="channel-side" class="svg-link " :class="{ active: actived('/channel') }" @click="navigateTo('/channel')" data-gradient="channel-side-gradient" transform="translate(3.000000, 1157.000000)">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="0.100108106 0 0.100108106 161.799998 0.100108106 323.599996 0.100108106 485.399994 123.466649 485.399994 123.466649 323.599996 246.733135 323.599996 246.733135 161.799998 370.099676 161.799998 370.099676 0"></polygon>
             <text id="Channel" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="36.6159415" y="71.3977">Channel</tspan>
             </text>
           </g>
-          <g id="artists-side" class="svg-link vertical-link" data-gradient="artists-side-gradient" data-href="http://jejulaf.com/artists" transform="translate(3.000000, 2.000000)">
+          <g id="artists-side" class="svg-link vertical-link" :class="{ active: actived('/artists') }" @click="navigateTo('/artists')" data-gradient="artists-side-gradient" transform="translate(3.000000, 2.000000)">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="0.499326146 0 0.499326146 100.366722 0.499326146 200.633278 0.499326146 301 123.699748 301 246.800252 301 370.000674 301 370.000674 110.483527 246.800252 110.483527 123.699748 110.483527 123.699748 0"></polygon>
             <text id="Artists" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="201.726415" y="267">Artists</tspan>
             </text>
           </g>
-          <g id="news-side" class="svg-link horizontal-link " data-gradient="news-side-gradient" data-href="http://jejulaf.com/blog" transform="translate(124.000000, 1312.000000)">
+          <g id="news-side" class="svg-link horizontal-link " :class="{ active: actived('/news') }" @click="navigateTo('/news')" data-gradient="news-side-gradient" transform="translate(124.000000, 1312.000000)">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="118.650002 0 118.449759 164.697224 0 164.697224 0 326.399994 246.499031 326.399994 246.999639 0"></polygon>
             <text id="News" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="100.112975" y="293.1541">News</tspan>
             </text>
           </g>
-          <g id="calendar-side" class="svg-link vertical-link" :class="{ active: actived('/calendar') }" data-gradient="calendar-side-gradient" data-href="http://jejulaf.com/calendar" transform="translate(1.000000, 1637.000000)">
+          <g id="calendar-side" class="svg-link vertical-link" :class="{ active: actived('/calendar') }" @click="navigateTo('/calendar')" data-gradient="calendar-side-gradient" transform="translate(1.000000, 1637.000000)">
             <g id="Rectangle">
               <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
               <rect stroke="#FFFFFF" stroke-width="3" x="2.30112128" y="1.5" width="369.49866" height="107"></rect>
@@ -68,7 +68,7 @@
               <tspan x="107.802621" y="76">Calendar</tspan>
             </text>
           </g>
-          <g id="tickets-side" class="svg-link horizontal-link " data-gradient="tickets-side-gradient" data-href="http://jejulaf.com/tickets" transform="translate(3.000000, 1746.000000)">
+          <g id="tickets-side" class="svg-link horizontal-link " :class="{ active: actived('/tickets') }" @click="navigateTo('/tickets')" data-gradient="tickets-side-gradient" transform="translate(3.000000, 1746.000000)">
             <rect id="Rectangle" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" x="0.300048828" y="0" width="247" height="109.70005"></rect>
             <text id="Tickets" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="60.7089844" y="74">Tickets</tspan>

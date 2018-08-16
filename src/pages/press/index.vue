@@ -3,7 +3,7 @@
     <header-component></header-component>
     <aside-component></aside-component>
 
-    <main class="main blog press" role="main">
+    <main class="main blog press">
       <section class="wrap">
         <div class="article" v-for="(pres, inx) in press" :key="inx">
           <h1 class="article-title">
