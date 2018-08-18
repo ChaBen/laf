@@ -248,8 +248,13 @@ header { background: #000; position: fixed; left: 0; width: calc(100% - 6px); to
   header .languages, header .social, header .MenuSearch { display: none; }
 }
 #home header .languages { display: block; }
-@media only screen and (max-width:767px) {
-  header #RightNav { display: none; }
+@media only screen and (max-width: 767px) {
+  header #RightNav, header .languages {
+    display: flex;
+  }
+  .columns .col {
+    width: auto;
+  }
 }
 header .mobile-header { margin: 0; display: none; }
 @media only screen and (max-width:767px) {
@@ -395,7 +400,7 @@ main aside ul li a:hover { font-style: italic; }
 #home #main-menu { display: block; }
 #home.show-channel #main-menu { display: none; }
 @media only screen and (max-width:767px) {
-  #main-menu {  /* display: none !important; */ }
+  #main-menu {  display: none !important; }
 }
 #main-menu svg { width: calc(100% + 5px); height: auto; margin-left: -6px; shape-rendering: crispEdges; }
 #main-menu svg * { shape-rendering: crispEdges; }
@@ -843,7 +848,6 @@ td a { padding: .5em .2em; display: inline-block; }
   .artist-article .inner { padding-right: 5.82vw; }
 }
 @media only screen and (max-width:767px) {
-  .artist-article { max-height: 12.5vw; }
   .artist-article:last-child { border-bottom: 3px solid #fff; }
   .artist-article .location { display: none; }
 }
