@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import Main from '@/pages/main'
 
 import Visit from '@/pages/visit';
-import Blog from '@/pages/blog';
 import Calendar from '@/pages/calendar';
 import Channel from '@/pages/channel';
 import Artists from '@/pages/artists';
@@ -26,13 +25,12 @@ setInterval(() => {
 
 export default new Router({
   mode: 'history',
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior() {
     document.getElementById('top-menu').scrollTop = asideScroll.y;
   },
   routes: [
     { path: '/', component: Main },
     { path: '/visit', component: Visit },
-    { path: '/blog', component: Blog },
     { path: '/calendar', component: Calendar },
     { path: '/artists', component: Artists },
     { path: '/about', component: About },
