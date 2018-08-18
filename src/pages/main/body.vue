@@ -3,62 +3,62 @@
     <nav id="main-menu" data-module-init="main-menu">
       <svg width="1443px" height="1264px" viewBox="0 0 1443 1264" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g id="visit-main" class="svg-link radial-link" @click="navigateTo('visit')" data-gradient="visit-gradient" transform="translate(4.000000, 303.000000)">
+          <g id="visit-main" class="svg-link radial-link" @click="navigateTo('visit')" data-gradient="visit-gradient" transform="translate(4.000000, 303.000000)" @mouseover="gradient('visit-gradient', 'r')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="544 0 0 480 543.495174 480"></polygon>
             <text id="Visit" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="405" y="437">Visit</tspan>
             </text>
           </g>
-          <g id="news-main" class="svg-link horizontal-link" data-gradient="news-gradient" data-href="/blog" transform="translate(863.000000, 222.000000)">
+          <g id="news-main" class="svg-link horizontal-link" @click="navigateTo('news')" data-gradient="news-gradient" transform="translate(863.000000, 222.000000)" @mouseover="gradient('news-gradient', 'x')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="578 0 578 1.00447427 274.052586 1.00447427 274.052586 226.006711 0 226.006711 0 449 578 449"></polygon>
             <text id="News" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="420" y="78">News</tspan>
             </text>
           </g>
-          <g id="calendar-main" class="svg-link vertical-link" data-gradient="calendar-gradient" data-href="/calendar" transform="translate(547.000000, 669.000000)">
+          <g id="calendar-main" class="svg-link vertical-link" @click="navigateTo('calendar')" data-gradient="calendar-gradient" transform="translate(547.000000, 669.000000)" @mouseover="gradient('calendar-gradient', 'y')" @mouseout="stopGradient">
             <rect id="Rectangle" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" x="0" y="0" width="894" height="114"></rect>
             <text id="Calendar" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="363" y="76">Calendar</tspan>
             </text>
           </g>
-          <g id="artists-main" class="svg-link vertical-link" data-href="/artists" transform="translate(8.000000, 2.000000)" data-gradient="artists-gradient">
+          <g id="artists-main" class="svg-link vertical-link" @click="navigateTo('artists')" transform="translate(8.000000, 2.000000)" data-gradient="artists-gradient" @mouseover="gradient('artists-gradient', 'y')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="0 0 0 101.700499 0 203.299501 0 305 180 305 360 305 540 305 540 203.299501 540 111.951747 360 111.951747 180 111.951747 180 0"></polygon>
             <text id="Artists" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="360.35316" y="267">Artists</tspan>
             </text>
           </g>
-          <g id="about-main" class="svg-link horizontal-link" data-gradient="about-gradient" @click="navigateTo('/about')" transform="translate(7.000000, 307.000000)">
+          <g id="about-main" class="svg-link horizontal-link" data-gradient="about-gradient" @click="navigateTo('/about')" transform="translate(7.000000, 307.000000)" @mouseover="gradient('about-gradient', 'x')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="0.498148148 0 0 476 538 0"></polygon>
             <text id="About" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="44" y="74">About</tspan>
             </text>
           </g>
-          <g id="press-main" class="svg-link radial-link" data-gradient="press-gradient" @click="navigateTo('press')" transform="translate(722.000000, 783.000000)">
+          <g id="press-main" class="svg-link radial-link" data-gradient="press-gradient" @click="navigateTo('press')" transform="translate(722.000000, 783.000000)" @mouseover="gradient('press-gradient', 'r')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="479.333333 0 479.333333 160.966395 239.666667 160.966395 0 160.966395 0 320.033187 0 479 239.666667 479 479.333333 479 719 479 719 0"></polygon>
             <text id="Press" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="564" y="434">Press</tspan>
             </text>
           </g>
-          <g id="events-main" class="svg-link vertical-link" data-gradient="events-gradient" data-href="/events" transform="translate(7.000000, 783.000000)">
+          <g id="events-main" class="svg-link vertical-link" data-gradient="events-gradient" @click="navigateTo('events')" transform="translate(7.000000, 783.000000)" @mouseover="gradient('events-gradient', 'y')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="0 0 0 242 238.1 242 238.1 479.1 716 479.1 716 0"></polygon>
             <text id="Events" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="528.4229" y="77.7553">Events</tspan>
             </text>
           </g>
-          <g id="tickets-main" class="svg-link horizontal-link" data-gradient="tickets-gradient" data-href="/tickets" transform="translate(723.000000, 783.000000)">
+          <g id="tickets-main" class="svg-link horizontal-link" @click="navigateTo('tickets')" data-gradient="tickets-gradient" transform="translate(723.000000, 783.000000)" @mouseover="gradient('tickets-gradient', 'x')" @mouseout="stopGradient">
             <rect id="Rectangle" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" x="0" y="0" width="480" height="161"></rect>
             <text id="Tickets" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="177.208984" y="100">Tickets</tspan>
             </text>
           </g>
-          <g id="limo-main" class="svg-link radial-link" data-gradient="limo-gradient" data-href="/limolimo" transform="translate(6.000000, 1024.000000)">
+          <g id="limo-main" class="svg-link radial-link" @click="navigateTo('limolimo')" data-gradient="limo-gradient" data-href="/limolimo" transform="translate(6.000000, 1024.000000)" @mouseover="gradient('limo-gradient', 'r')" @mouseout="stopGradient">
             <rect id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" x="0.8" y="0" width="238.2" height="238"></rect>
             <text id="LimoLimo" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
               <tspan x="76.6469719" y="113">Limo</tspan>
               <tspan x="76.6469719" y="160">Limo</tspan>
             </text>
           </g>
-          <g id="channel-main" transform="translate(547.000000, 2.000000)">
+          <g id="channel-main" transform="translate(547.000000, 2.000000)" @click="navigateTo('channel')">
             <polygon id="Fill-1" stroke="#FFFFFF" stroke-width="3" fill="#000000" points="0 0 0 667 316.352297 667 316.352297 445.66268 590.226854 445.66268 590.226854 222.332336 894 222.332336 894 137.069336 894 0"></polygon>
             <text id="Channel" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal" fill="#FEFEFE">
               <tspan x="77" y="623">Channel</tspan>
@@ -319,14 +319,9 @@
           </linearGradient>
           
           <!-- artists-gradient -->
-          <linearGradient id="artists-side-gradient" x1="50%" y1="98.5024958%" x2="50%" y2="28.1908486%">
+          <radialGradient id="artists-side-gradient" x1="50%" y1="98.5024958%" x2="50%" y2="28.1908486%">
             <stop stop-color="#FFFFFF" offset="0%"></stop>
-            <stop stop-color="#BCBBBB" offset="24.62%"></stop>
-            <stop stop-color="#7B7979" offset="51.16%"></stop>
-            <stop stop-color="#4B4849" offset="73.49%"></stop>
-            <stop stop-color="#2E2A2B" offset="90.43%"></stop>
-            <stop stop-color="#231F20" offset="100%"></stop>
-          </linearGradient>
+          </radialGradient>
         </svg>
       </div>
     </nav>
@@ -338,6 +333,48 @@ export default {
   methods: {
     navigateTo(nav) {
       this.$router.push({ path: nav });
+    },
+    gradient(id, is) {
+      let ele = document.getElementById(id);
+      let r = is == 'r' ? Number(ele.getAttribute('r').split('%').join('')) : '';
+      let i1 = is !== 'r' ? Number(ele.getAttribute(`${is}1`).split('%').join('')) : '';
+      let i2 = is !== 'r' ? Number(ele.getAttribute(`${is}2`).split('%').join('')) : '';
+
+      this.animationInt = setInterval(function(){
+        if( ele.getAttribute('data-grow') == 'up' ) {
+          if( i1 < 100 || r < 100 ){
+            let new_r = r++;
+            let new_i1 = i1++;
+            let new_i2 = i2++;
+            if( is == 'r' ) {
+              ele.setAttribute('r', `${new_r}%`);
+            } else {
+              ele.setAttribute(`${is}1`, `${new_i1}%`);
+              ele.setAttribute(`${is}2`, `${new_i2}%`);
+            }
+          } else {
+            ele.setAttribute('data-grow', 'down');
+          }
+        } else {
+          if( i1 > 1 || r > 1 ) {
+            let new_r = r--;
+            let new_i1 = i1--;
+            let new_i2 = i2--;
+
+            if( is == 'r' ) {
+              ele.setAttribute('r', new_r + '%');
+            } else {
+              ele.setAttribute(`${is}1`, `${new_i1}%`);
+              ele.setAttribute(`${is}2`, `${new_i2}%`);
+            }
+          } else {
+            ele.setAttribute('data-grow', 'up');
+          }
+        }
+      }, 20); 
+    },
+    stopGradient() {
+      clearInterval(this.animationInt);
     }
   }
 }

@@ -18,9 +18,17 @@ import Limolimo from '@/pages/limolimo';
 
 Vue.use(Router)
 
+var asideScroll = '';
+setInterval(() => {
+  let el = document.getElementById('top-menu');
+  asideScroll = { x: el.scrollLeft, y: el.scrollTop };
+}, 100);
+
 export default new Router({
   mode: 'history',
-  linkActiveClass: 'active',
+  scrollBehavior(to, from, savedPosition) {
+    document.getElementById('top-menu').scrollTop = asideScroll.y;
+  },
   routes: [
     { path: '/', component: Main },
     { path: '/visit', component: Visit },

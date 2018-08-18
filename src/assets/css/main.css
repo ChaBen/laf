@@ -65,9 +65,9 @@ body, p, .plyr__time, .plyr { font-family: 'Gotham', Helvetica, Arial, sans-seri
 @media screen and (min-width:1441px) {
   body, p, .plyr__time, .plyr { line-height: 1.736vw; }
 }
-html:lang(cn)html:lang(cn) body, html:lang(cn) p, html:lang(cn) .plyr__time, html:lang(cn) .plyr { font-family: 'Gotham', 'Hiragino Kaku Gothic Pro', 'WenQuanYi Zen Hei', '微軟正黑體', '蘋果儷中黑', "STHeiti", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif; }
-html:lang(jp) body, html:lang(jp) p, html:lang(jp) .plyr__time, html:lang(jp) .plyr { font-family: 'Gotham', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
-html:lang(kr) body, html:lang(kr) p, html:lang(kr) .plyr__time, html:lang(kr) .plyr { font-family: 'Gotham', 'Apple SD Gothic Neo', 'NanumBarunGothic', 'Malgun Gothic', dotum, sans-serif; }
+html.cn body, html.cn p { font-family: 'Gotham', 'Hiragino Kaku Gothic Pro', 'WenQuanYi Zen Hei', '微軟正黑體', '蘋果儷中黑', "STHeiti", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif; }
+html.jp body, html.jp p  { font-family: 'Gotham', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+html.kr body, html.kr p  { font-family: 'Gotham', 'Apple SD Gothic Neo', 'NanumBarunGothic', 'Malgun Gothic', dotum, sans-serif; }
 body { -webkit-font-smoothing: antialiased; }
 h1, .languages li a, .social li, h2, h3, h4, h5, h6, p, a, select, input, label, textarea, span, time { letter-spacing: initial !important; word-spacing: initial; }
 p a { opacity: .6; filter: alpha(opacity=60); }
@@ -214,7 +214,7 @@ svg { fill: transparent !important; stroke: #fff; }
 }
 p.out a { opacity: .4; filter: alpha(opacity=40); }
 p.out a:hover { opacity: 1; filter: alpha(opacity=100); }
-.col { border: 0px solid transparent; float: left; box-sizing: border-box; background-clip: padding-box !important; }
+.col { border: 0px solid transparent; float: left; width: 50%; box-sizing: border-box; background-clip: padding-box !important; }
 .col { margin-left: 0%; padding: 0 0.1% }
 .row .col:first-child { margin-left: 0; }
 .span_1 { width: 9.09091%; border-left-width: 0; padding: 0 .1%; margin-left: 0% }
@@ -423,8 +423,8 @@ text { -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select:
 #events-side polygon:hover { fill: url(#events-side-gradient); }
 #events-side.active polygon { fill: url(#events-side-gradient); }
 #limo-main rect:hover { fill: url(#limo-gradient); }
-#limo-side rect:hover { fill: url(#limo-side-gradient); }
-#limo-side.active rect { fill: url(#limo-side-gradient); }
+#limo-side rect:hover { fill: url(#limolimo-side-gradient); }
+#limo-side.active rect { fill: url(#limolimo-side-gradient); }
 #tickets-main polygon:hover { fill: url(#ticket-gradient); }
 #tickets-side polygon:hover { fill: url(#ticket-side-gradient); }
 #tickets-side.active polygon { fill: url(#tickets-side-gradient); }
@@ -445,7 +445,7 @@ text { -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select:
 #channel-side:hover, #channel-side.active { fill: transparent; }
 #channel-side:hover polygon, #channel-side.active polygon { fill: transparent; }
 #RightNav { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
-#top-menu { width: 25.69vw; height: calc(100% - 7.8vw); top: 7.916vw; margin-top: 3px; position: fixed; z-index: 3; overflow-y: scroll; overflow-x: hidden; -webkit-overflow-scrolling: touch; background: url(../images/_-1.jpg) repeat 0 0; background-size: cover; }
+#top-menu { width: 25.69vw; height: calc(100% - 7.8vw); top: 7.916vw; margin-top: 3px; position: fixed; z-index: 3; overflow-y: scroll; overflow-x: hidden; -webkit-overflow-scrolling: touch; background: url(/static/images/_-1.jpg) repeat 0 0; background-size: cover; }
 #top-menu::-webkit-scrollbar { display: none; width: 0px; background: transparent; }
 #top-menu:after { content: ''; border-right: 3px solid #fff; position: fixed; top: 0; width: 1px; height: 100%; left: 25.69vw; }
 @media only screen and (max-width:767px) {
@@ -453,7 +453,7 @@ text { -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select:
   #home #top-menu { display: block; }
   #top-menu:after { display: none; }
 }
-#top-menu:hover { cursor: url(../images/arrow-down.png) 15 58, auto; }
+#top-menu:hover { cursor: url(/static/images/arrow-down.png) 15 58, auto; }
 .show-channel #top-menu { display: none; }
 #top-menu .menu-svg { margin-left: -5px; margin-right: -5px; }
 #top-menu .menu-svg svg { width: 100%; height: auto; }
@@ -652,7 +652,7 @@ body { height: 100%; margin: 0; }
 .si-content hr { margin: 50px 0 0; border-color: #2b3031; }
 .si-content em { font-size: 0.85em; }
 .section.slideshow .slideshow-item img { width: 100% }
-.slideshow-item:hover { cursor: url(../images/arrow-right.png), auto; }
+.slideshow-item:hover { cursor: url(/static/images/arrow-right.png), auto; }
 .section.slideshow_with_text .slideshow-item { display: -ms-flexbox; display: flex; }
 @media only screen and (max-width:767px) {
   .section.slideshow_with_text .slideshow-item { -ms-flex-direction: column; flex-direction: column; }
@@ -834,9 +834,8 @@ td a { padding: .5em .2em; display: inline-block; }
 .event-image figure img { width: 100%; margin: 0; }
 .event+.event { margin-top: 1em; }
 #limo-limo .body-text-3 { columns: 2; }
-.artist-article { transition: 0s max-height; margin: 0; max-height: 8.5vw; overflow: hidden; }
+.artist-article { transition: 0s max-height; margin: 0; overflow: hidden; }
 .artist-article .slideshow { border-bottom: none; }
-.artist-article .inner { padding-left: 2.91vw; padding-right: 2.91vw; }
 @media only screen and (max-width:767px) {
   .artist-article .inner { padding-left: 5.82vw; }
 }
@@ -953,3 +952,10 @@ body.tickets .vendor-list { clear: both; }
 }
 .ui-link { font-size: 35px; }
 .img img { width: 100%; }
+.artist-article .accordion-body { display: none; margin-top: 20px; }
+.artist-article .accordion-head { cursor: pointer; }
+.artist-article .accordion-head.active + .accordion-body { display: block; }
+.sliders .slide img { width: 100%; }
+.about .slider { border-top: 0; margin-top: 0; border-bottom: 2px solid #fff; }
+.about .slick-slide div { line-height: 0; }
+.columns { overflow: hidden; }

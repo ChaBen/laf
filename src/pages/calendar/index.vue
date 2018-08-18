@@ -42,27 +42,11 @@
         </div>
 
         <article class="article" data-month="07" data-day="27" data-year="2018">
-          <h1 class="article-title">Friday&nbsp;07.27.18</h1>
+          <h1 class="article-title">{{$t('calendar.title')}}&nbsp;{{$t('calendar.date')}}</h1>
           <p class="article-date"></p>
-          <section class="event">
-            <div class="event-header">
-              LAF 그랜드 오픈
-              <br> 제주 LAF
-              <br>
-              <br>
-            </div>
-            <div class="event-body">
-            </div>
-          </section>
-          <section class="event">
-            <div class="event-header">
-              제주 라프 그랜드 오픈
-              <br> 제주시 조천읍 선교로 115-1
-              <br> 9am–12pm
-              <br>
-            </div>
-            <div class="event-body">
-              <p>제주 라프가 7월 27일 그랜드 오픈합니다.</p>
+          <section class="event" v-for="(calen, key) in $t('calendar.event')" :key="key">
+            <div class="event-header" v-html="calen.header"></div>
+            <div class="event-body" v-html="calen.body">
             </div>
           </section>
         </article>

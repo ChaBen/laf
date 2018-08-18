@@ -18,7 +18,7 @@
           </h1>
           <p class="article-date" style="font-size:27px;">06.25.18</p>
           <figure>
-            <img src="../../assets/images/news/jejulaf-tag-event-1.png" alt="">
+            <img src="@/assets/images/news/jejulaf-tag-event-1.png" alt="">
           </figure>
           <div class="text">
             <p>
