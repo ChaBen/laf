@@ -22,8 +22,7 @@
           </ul>
           
           <div class="event-image">
-            <figure><img :src="tag.src" alt="">
-            </figure>
+            <figure><img :src="tag.src" alt=""></figure>
           </div>
 
           <div class="text">

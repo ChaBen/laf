@@ -658,16 +658,16 @@ body { height: 100%; margin: 0; }
 .si-content em { font-size: 0.85em; }
 .section.slideshow .slideshow-item img { width: 100% }
 .slideshow-item:hover { cursor: url(/static/images/arrow-right.png), auto; }
-.section.slideshow_with_text .slideshow-item { display: -ms-flexbox; display: flex; }
+.section.slideshow_with_text .slideshow-item { overflow: hidden; }
 @media only screen and (max-width:767px) {
   .section.slideshow_with_text .slideshow-item { -ms-flex-direction: column; flex-direction: column; }
 }
-.section.slideshow_with_text .slideshow-image { width: 73.66%; -ms-flex: 0 0 73.66%; flex: 0 0 73.66%; border-right: 3px solid #fff; }
+.section.slideshow_with_text .slideshow-image { float: left; width: 70%; border-right: 3px solid #fff; box-sizing: border-box; }
 @media only screen and (max-width:767px) {
   .section.slideshow_with_text .slideshow-image { width: 100%; -ms-flex: 0 0 100%; flex: 0 0 100%; border-right: none; }
 }
 .section.slideshow_with_text .slideshow-image img { width: 100%; border-bottom: 3px solid #fff; }
-.section.slideshow_with_text .project-section-text { padding-left: 1.455vw; padding-right: 1.455vw; padding-top: 1.92vw; }
+.section.slideshow_with_text .project-section-text { float: left; width: 30%; padding-left: 1.455vw; padding-right: 1.455vw; padding-top: 1.92vw; box-sizing: border-box; }
 @media only screen and (max-width:767px) {
   .section.slideshow_with_text .project-section-text { padding-left: 2.91vw; }
 }
@@ -963,3 +963,5 @@ body.tickets .vendor-list { clear: both; }
 .about .slider { border-top: 0; margin-top: 0; border-bottom: 2px solid #fff; }
 .about .slick-slide div { line-height: 0; }
 .columns { overflow: hidden; }
+#main-menu svg { background: url(/static/images/_-2.jpg) repeat 0 0; background-size: contain; }
+.social { margin-left: 10px; }

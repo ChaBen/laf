@@ -4,18 +4,18 @@
     <aside-component></aside-component>
 
     <main class="main" role="main">
-      <article class="article single wrap">
+      <article class="article single wrap" v-for="tag in $t('news.tags')" :key="tag.id">
 
-        <h1 class="article-title">2018 LAF 디자인 공모전 LIGHT:ART:FESTA CONTENTS CANVAS </h1>
+        <h1 class="article-title">{{tag.subtitle}}</h1>
 
-        <h2 class="article-date">06.25.18</h2>
+        <h2 class="article-date">{{tag.date}}</h2>
 
         <figure>
-          <img src="http://jejulaf.com/content/7-blog/20180625-laf-light-art-festa-contents-canvas/jejulaf-tag-event-1.png" alt="">
+          <img :src="tag.src">
         </figure>
 
         <div class="img">
-          <img src="http://www.jeju.withprojects.org/content/7-blog/20180625-laf-light-art-festa-contents-canvas/jejulaf-contents-canvas.png">
+          <img :src="tag.subsrc">
         </div>
       </article>
     </main>

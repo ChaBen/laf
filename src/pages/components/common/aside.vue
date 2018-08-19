@@ -79,7 +79,7 @@
             <rect stroke="#FFFFFF" stroke-width="3" x="126.5" y="1.5" width="247" height="111"></rect>
           </g>
         </g>
-          
+        
         <!-- about -->
         <linearGradient id="about-side-gradient" x1="96.8865741%" y1="62.4869466%" x2="0%" y2="62.4869466%" data-x1="96.8865741" data-y1="62.4869466" data-x2="0" data-y2="62.4869466" data-grow="up">
           <stop stop-color="#FF96D5" offset="0%"></stop>

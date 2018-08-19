@@ -2,23 +2,24 @@
   <div>
     <header-component></header-component>
     <aside-component></aside-component>
+
     <main class="main blog news">
       <aside>
         <ul class="tags">
-          <li>
-            <router-link to="/news" class="ui-link">콘테스트</router-link>
+          <li v-for="tag in $t('news.tags')" :key="tag.id">
+            <router-link :to="`/news/${tag.id}`" class="ui-link">{{tag.title}}</router-link>
           </li>
         </ul>
       </aside>
 
       <section class="wrap">
-        <article class="article">
+        <article class="article" v-for="tag in $t('news.tags')" :key="tag.id">
           <h1 class="article-title" style="font-size:35px;">
-            <router-link to="/news/context" class="ui-link">2018 LAF 디자인 공모전 LIGHT:ART:FESTA CONTENTS CANVAS</router-link>
+            <router-link to="/news/context" class="ui-link">{{tag.subtitle}}</router-link>
           </h1>
-          <p class="article-date" style="font-size:27px;">06.25.18</p>
+          <p class="article-date" style="font-size:27px;">{{tag.date}}</p>
           <figure>
-            <img src="@/assets/images/news/jejulaf-tag-event-1.png" alt="">
+            <img :src="tag.src">
           </figure>
           <div class="text">
             <p>

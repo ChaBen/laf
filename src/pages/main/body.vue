@@ -215,7 +215,7 @@
                 <tspan x="100.112975" y="293.1541">News</tspan>
               </text>
             </g>
-            <g id="calendar-side" class="svg-link vertical-link " data-gradient="calendar-side-gradient" @click="navigateTo('calendar')" @mouseover="gradient('calendar-gradient', 'y')" @mouseout="stopGradient" transform="translate(1.000000, 1637.000000)">
+            <g id="calendar-side" class="svg-link vertical-link " data-gradient="calendar-side-gradient" @click="navigateTo('calendar')" transform="translate(1.000000, 1637.000000)">
               <g id="Rectangle">
                 <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
                 <rect stroke="#FFFFFF" stroke-width="3" x="2.30112128" y="1.5" width="369.49866" height="107"></rect>
@@ -235,6 +235,94 @@
               <rect stroke="#FFFFFF" stroke-width="3" x="126.5" y="1.5" width="247" height="111"></rect>
             </g>
           </g>
+
+          <!-- about -->
+          <linearGradient id="about-side-gradient" x1="96.8865741%" y1="62.4869466%" x2="0%" y2="62.4869466%" data-x1="96.8865741" data-y1="62.4869466" data-x2="0" data-y2="62.4869466">
+            <stop stop-color="#FF96D5" offset="0%"></stop>
+            <stop stop-color="#FF96D5" offset="29.77%"></stop>
+            <stop stop-color="#FF97CE" offset="40.58%"></stop>
+            <stop stop-color="#FF98B9" offset="57.0452009%"></stop>
+            <stop stop-color="#FF9A98" offset="76.36%"></stop>
+            <stop stop-color="#FF9D6F" offset="95.95%"></stop>
+            <stop stop-color="#FF9D6F" offset="100%"></stop>
+          </linearGradient>
+          
+          <!-- visit -->
+          <radialGradient id="visit-side-gradient" cx="50%" cy="50%" fx="50%" fy="50%" r="60.43211%" gradientTransform="translate(0.500000,0.500000),scale(0.888827,1.000000),rotate(90.000000),translate(-0.500000,-0.500000)" data-r="60.43211">
+            <stop stop-color="#00FFF7" offset="0%"></stop>
+            <stop stop-color="#00FFF7" offset="31.7283163%"></stop>
+            <stop stop-color="#09FFA3" offset="81.6984216%"></stop>
+            <stop stop-color="#12FF4C" offset="100%"></stop>
+          </radialGradient>
+          
+          <!-- press gradient -->
+          <radialGradient id="press-side-gradient" cx="50.8327901%" cy="50%" fx="50.8327901%" fy="50%" r="50%" gradientTransform="translate(0.508328,0.500000),scale(0.665417,1.000000),rotate(90.000000),scale(1.000000,1.511267),translate(-0.508328,-0.500000)" data-r="50">
+            <stop stop-color="#EF0007" offset="0%"></stop>
+            <stop stop-color="#EF0007" offset="10.9534439%"></stop>
+            <stop stop-color="#7A0038" offset="60.3176818%"></stop>
+            <stop stop-color="#5A0029" offset="73.698581%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+          </radialGradient>
+
+          <!-- tickets gradient -->
+          <linearGradient id="tickets-side-gradient" x1="0.00117107731%" y1="50.0028625%" x2="99.9991102%" y2="50.0028625%">
+            <stop stop-color="#00FF94" offset="0%"></stop>
+            <stop stop-color="#00FF94" offset="3.48636%"></stop>
+            <stop stop-color="#28E38B" offset="7.816461%"></stop>
+            <stop stop-color="#60BB7E" offset="14.62%"></stop>
+            <stop stop-color="#919973" offset="21.45%"></stop>
+            <stop stop-color="#B87E69" offset="28.16%"></stop>
+            <stop stop-color="#D76862" offset="34.73%"></stop>
+            <stop stop-color="#ED585D" offset="41.12%"></stop>
+            <stop stop-color="#FB4F5A" offset="47.24%"></stop>
+            <stop stop-color="#FF4C59" offset="52.8%"></stop>
+            <stop stop-color="#F6525B" offset="56.81%"></stop>
+            <stop stop-color="#DD6461" offset="63.42%"></stop>
+            <stop stop-color="#B4816A" offset="71.82%"></stop>
+            <stop stop-color="#7BA877" offset="81.69%"></stop>
+            <stop stop-color="#34DB88" offset="92.65%"></stop>
+            <stop stop-color="#00FF94" offset="100%"></stop>
+          </linearGradient>
+
+          <!-- limo gradient -->
+          <radialGradient id="limolimo-side-gradient" cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.500000,0.500000),scale(0.999160,1.000000),rotate(-90.000000),translate(-0.500000,-0.500000)">
+            <stop stop-color="#35FE97" offset="0%"></stop>
+            <stop stop-color="#31E8A1" offset="34.1856665%"></stop>
+            <stop stop-color="#0E27FC" offset="100%"></stop>
+          </radialGradient>
+          
+          <!-- calendar gradient -->
+          <linearGradient id="calendar-side-gradient" x1="50.0008333%" y1="99.0639009%" x2="50.0008333%" y2="0.890300862%">
+            <stop stop-color="#00005E" offset="0%"></stop>
+            <stop stop-color="#00005E" offset="18.67%"></stop>
+            <stop stop-color="#000000" offset="86.55%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+          </linearGradient>
+
+          <!-- events gradient -->
+          <linearGradient id="events-side-gradient" x1="50%" y1="0%" x2="50%" y2="97.660236%" data-grow="up">
+            <stop stop-color="#EE0077" offset="0%"></stop>
+            <stop stop-color="#8F0B8A" offset="28.7308673%"></stop>
+            <stop stop-color="#5E1094" offset="49.8445472%"></stop>
+            <stop stop-color="#870B8C" offset="71.0180166%"></stop>
+            <stop stop-color="#EE0077" offset="100%"></stop>
+          </linearGradient>
+          
+          <!-- news-gradient -->
+          <linearGradient id="news-side-gradient" x1="87.2875584%" y1="77.399677%" x2="14.4019741%" y2="77.399677%" data-grow="up">
+            <stop stop-color="#FF4C59" offset="0%"></stop>
+            <stop stop-color="#FFFF00" offset="100%"></stop>
+          </linearGradient>
+          
+          <!-- artists-gradient -->
+          <linearGradient id="artists-side-gradient" x1="50%" y1="87.5024958%" x2="50%" y2="17.190848599999995%" data-grow="up">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#BCBBBB" offset="24.62%"></stop>
+            <stop stop-color="#7B7979" offset="51.16%"></stop>
+            <stop stop-color="#4B4849" offset="73.49%"></stop>
+            <stop stop-color="#2E2A2B" offset="90.43%"></stop>
+            <stop stop-color="#231F20" offset="100%"></stop>
+          </linearGradient>
         </svg>
       </div>
     </nav>
@@ -249,6 +337,46 @@ export default {
     },
     navigateTo(nav) {
       this.$router.push({ path: nav });
+    },
+    gradient(id, is) {
+      let ele = document.getElementById(id);
+      let r = is == 'r' ? Number(ele.getAttribute('r').split('%').join('')) : '';
+      let i1 = is !== 'r' ? Number(ele.getAttribute(`${is}1`).split('%').join('')) : '';
+      let i2 = is !== 'r' ? Number(ele.getAttribute(`${is}2`).split('%').join('')) : '';
+       this.animationInt = setInterval(function(){
+        if( ele.getAttribute('data-grow') == 'up' ) {
+          if( i1 < 100 || r < 100 ){
+            let new_r = r++;
+            let new_i1 = i1++;
+            let new_i2 = i2++;
+            if( is == 'r' ) {
+              ele.setAttribute('r', `${new_r}%`);
+            } else {
+              ele.setAttribute(`${is}1`, `${new_i1}%`);
+              ele.setAttribute(`${is}2`, `${new_i2}%`);
+            }
+          } else {
+            ele.setAttribute('data-grow', 'down');
+          }
+        } else {
+          if( i1 > 1 || r > 1 ) {
+            let new_r = r--;
+            let new_i1 = i1--;
+            let new_i2 = i2--;
+             if( is == 'r' ) {
+              ele.setAttribute('r', new_r + '%');
+            } else {
+              ele.setAttribute(`${is}1`, `${new_i1}%`);
+              ele.setAttribute(`${is}2`, `${new_i2}%`);
+            }
+          } else {
+            ele.setAttribute('data-grow', 'up');
+          }
+        }
+      }, 20); 
+    },
+    stopGradient() {
+      clearInterval(this.animationInt);
     }
   }
 }

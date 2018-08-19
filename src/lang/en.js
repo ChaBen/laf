@@ -130,7 +130,29 @@ export default {
   limolimo: {
     title: 'Installations',
     subtitle: 'Limo Limo is a fantastical indoor space that hosts Jean Pigozzi\'s "Limo Land," an ambitious site-specific work, alongside installations by Byungchan Lee. In "LimoLimo," the visitor meets anthropomorphic creatures that populate the Cave, an exciting new world which feels strangely familiar. Visitors can also enjoy coffee menus and special green tea beverages.',
-    text: 'Jean Pigozzi, Limo Land, 2018.<br>Byungchan Lee, Urban Creature, 2018.'
+    text: 'Jean Pigozzi, Limo Land, 2018.<br>Byungchan Lee, Urban Creature, 2018.',
+    sliders: [{
+      src: '/static/images/limolimo/1-1.jpg',
+      title: '<p><strong>Jean Pigozzi, Limo Land, 2018.</strong></p><p>FRP, 흑경.</p>'
+    }, {
+      src: '/static/images/limolimo/1-2.jpg',
+      title: '<p><strong>Jean Pigozzi, Limo Land, 2018.</strong></p><p>FRP, 흑경.</p>'
+    }, {
+      src: '/static/images/limolimo/1-3.jpg',
+      title: '<p><strong>이병찬, Urban Creature, 2018.</strong></p><p>에어모터, LED, 광섬유, 필름 비닐.</p>'
+    }, {
+      src: '/static/images/limolimo/1-4.jpg',
+      title: '<p><strong>이병찬, Urban Creature, 2018.</strong></p><p>에어모터, LED, 광섬유, 필름 비닐.</p>'
+    }]
+  },
+  news: {
+    tags: [{
+      title: 'CONTEST',
+      subtitle: '2018 LAF Design Contest LIGHT:ART:FESTA CONTENTS CANVAS',
+      date: '2018.06.25',
+      src: '/static/images/news/jejulaf-tag-event-1.png',
+      subsrc: '/static/images/news/jejulaf-contents-canvas.png'
+    }]
   },
   calendar: {
     title: 'Thursday',
