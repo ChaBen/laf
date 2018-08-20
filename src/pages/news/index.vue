@@ -24,7 +24,7 @@
           <div class="text">
             <p>
               <br>
-              <a href="/news/context" class="article-more">read more</a>
+              <router-link :to="`/news/${tag.id}`" class="article-more">read more</router-link>
             </p>
           </div>
         </article>

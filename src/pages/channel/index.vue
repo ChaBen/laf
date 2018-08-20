@@ -7,7 +7,7 @@
       <aside>
         <ul class="tags">           
           <li>
-            <a href="/channel" class="ui-link">제주라프</a>
+            <router-link to="/channel" class="ui-link">제주라프</router-link>
           </li>
         </ul>
       </aside>
