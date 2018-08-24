@@ -14,7 +14,7 @@
       <section class="wrap">
         <article class="article" v-for="(video, key) in videos" :key="key">
           <div class="video">
-            <iframe width="100%" height="100%" :src="video.src" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" style="height: 27vh;" :src="video.src" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </article>
       </section>

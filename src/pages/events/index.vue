@@ -17,9 +17,10 @@
             <router-link to="/events/www" class="ui-link">{{tag.subtitle}}</router-link>
           </h1>
 
-          <ul class="event-tags">
-            <li>{{tag.title}} <span>/</span></li>
-          </ul>
+          <div class="view-more">
+            <p>{{tag.title}}</p>
+            <p><router-link to="/events/www">view more</router-link></p>
+          </div>
           
           <div class="event-image">
             <figure><img :src="tag.src" alt=""></figure>

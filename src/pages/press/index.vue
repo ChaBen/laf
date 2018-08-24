@@ -7,7 +7,7 @@
       <section class="wrap">
         <div class="article" v-for="(pres, inx) in press" :key="inx">
           <h1 class="article-title">
-            <a :href="pres.link" target="_blank" class="ui-link">{{pres.title}}</a>
+            <a :href="pres.link" target="_blank">{{pres.title}}</a>
           </h1>
           <!-- <p class="article-date">{{pres.date}}</p> -->
           <div class="text">{{pres.text}}</div>
@@ -74,15 +74,3 @@ export default {
   }
 }
 </script>
-
-<style>
-  .article {
-    display: block;
-    width: auto;
-    padding-left: 2.91vw;
-    padding-top: 2.4vw;
-    padding-bottom: 2.4vw;
-    padding-right: 2.91vw;
-    border-bottom: 3px solid #fff;
-  }
-</style>

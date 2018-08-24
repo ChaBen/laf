@@ -966,3 +966,6 @@ body.tickets .vendor-list { clear: both; }
 #main-menu svg { background: url(/static/images/_-2.jpg) repeat 0 0; background-size: contain; }
 .social { margin-left: 10px; }
 .faq-list blockquote { margin-top: 10px; }
+.limolimo .slick-slider { margin-top: 0; border: 0; }
+.wrap .view-more { display: flex; flex-direction: row; justify-content: space-between; }
+.wrap .view-more p { display: flex; margin-top: 1em; }

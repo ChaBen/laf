@@ -2,7 +2,7 @@
   <div>
     <header-component></header-component>
     <aside-component></aside-component>
-    <main class="main">
+    <main class="main limolimo">
       <section class="section bodyText">
         <div class="inner">
           <p v-html="$t('limolimo.subtitle')"></p>

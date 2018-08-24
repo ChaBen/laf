@@ -28,15 +28,18 @@
 
       <section class="section bodyText" v-html="$t('about.sponsors')"></section>
     </main>
+
+    <footer-component></footer-component>
   </div>
 </template>
 
 <script>
 import HeaderComponent from '@/pages/components/common/header';
 import AsideComponent from '@/pages/components/common/aside';
+import FooterComponent from '@/pages/components/common/footer';
 
 export default {
-  components: { HeaderComponent, AsideComponent },
+  components: { HeaderComponent, AsideComponent, FooterComponent },
   data() {
     return {
       actived: true

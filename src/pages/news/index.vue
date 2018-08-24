@@ -17,16 +17,13 @@
           <h1 class="article-title" style="font-size:35px;">
             <router-link to="/news/context" class="ui-link">{{tag.subtitle}}</router-link>
           </h1>
-          <p class="article-date" style="font-size:27px;">{{tag.date}}</p>
+          <div class="view-more">
+            <p>{{tag.title}}</p>
+            <p><router-link to="/events/www">view more</router-link></p>
+          </div>
           <figure>
             <img :src="tag.src">
           </figure>
-          <div class="text">
-            <p>
-              <br>
-              <router-link :to="`/news/${tag.id}`" class="article-more">read more</router-link>
-            </p>
-          </div>
         </article>
       </section>
     </main>
