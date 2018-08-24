@@ -9,6 +9,13 @@
         <div class="map-canvas" style="height: 50vh; min-height: 400px;"></div>
       </section>
       <section class="section bodyText" v-html="$t('visit.island')"></section>
+      <section class="sliders">
+        <div class="sliders">
+          <div class="slider">
+            <div class="slide" v-for="(slide, key) in $t('visit.sliders')" :key="key"><img :src="slide.src" /></div>
+          </div>
+        </div>
+      </section>
     </main>
   </div>
 </template>
@@ -16,11 +23,18 @@
 <script>
 import HeaderComponent from '@/pages/components/common/header';
 import AsideComponent from '@/pages/components/common/aside';
+import SnazzyInfoWindow from 'snazzy-info-window';
 
 export default {
   components: { HeaderComponent, AsideComponent },
   mounted() {
     this.map();
+    setTimeout(() => {
+      $('.slider').slick({
+        dots: true,
+        adaptiveHeight: true
+      });
+    }, 100);
   },
   methods: {
     map() {
@@ -36,11 +50,21 @@ export default {
             disableDefaultUI: true
         });
 
-                                            
         var marker_0 = new google.maps.Marker({
             map: map,
-            icon: "http://jejulaf.com/assets/images/marker_small.png",
+            icon: "http://jejulaf.tmsearch.co.kr/static/images/visit/marker_small.png",
             position: new google.maps.LatLng(33.487205, 126.706749)
+        });
+
+        var ct = "<h1>제주 LAF</h1>";
+            ct += "<div class='infobody'></div>";
+			            ct += "<img src='http://jejulaf.tmsearch.co.kr/static/images/visit/lightartfestlonglogo.png' />";
+        var info_0 = new SnazzyInfoWindow({
+            marker: marker_0,
+            content: ct,
+            closeOnMapClick: true,
+            closeWhenOthersOpen: true,
+            showCloseButton: false
         });
       }
     }

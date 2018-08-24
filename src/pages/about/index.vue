@@ -24,9 +24,9 @@
         </div>
       </section>
 
-      <section class="section bodyText" v-html="$t('about.sponsors')"></section>
-          
       <section class="section faq-list" v-html="$t('about.faq')"></section>
+
+      <section class="section bodyText" v-html="$t('about.sponsors')"></section>
     </main>
   </div>
 </template>

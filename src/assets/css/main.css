@@ -965,3 +965,4 @@ body.tickets .vendor-list { clear: both; }
 .columns { overflow: hidden; }
 #main-menu svg { background: url(/static/images/_-2.jpg) repeat 0 0; background-size: contain; }
 .social { margin-left: 10px; }
+.faq-list blockquote { margin-top: 10px; }
