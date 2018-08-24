@@ -1,7 +1,7 @@
 export default {
   artists: {
     data: [{
-      title: 'Bruce Munro (布鲁斯 蒙罗)<br>Long Knoll, UK',
+      title: 'Bruce Munro (布鲁斯 蒙罗)<p>Long Knoll, UK</p>',
       body: '布鲁斯 蒙罗(Bruce Munro)是利用数千个照明配件制造大型极具“纪念碑性”的户外灯光装置而著称于世的英国作家。30多年来他把在脑海里浮现的灵感和形象收集在他的速写本里，记录下来做为他创作的源泉。<br> 他的创作与语言，文学，科学，音乐密不可分。那里蕴涵着与世界相连的的刹那瞬间和对于生命本质模式生存的最大个人经验。他用自然规模来诠释光的主旋律，引发观众的情感。<br> 1982年布鲁斯在布里斯托大学获得美术学位后马上飞到悉尼研究设计和照明，澳大利亚的自然光和风光给他留下了深刻的印象。直到1992年他回到了英国， 他和妻子Serena，四个孩子在Wiltshire定居下来。<br> 期间布鲁斯的作品展示在宾夕法尼亚州的长木花园（Longwood Gardens），伦敦的维多利亚和艾伯特博物馆(The Victoria & Albert Museum），白金汉郡的罗斯柴尔德家族的沃德斯登庄园(Waddesdon Manor for the Rothschild Collection)， 在查茨沃斯庄园(Chatsworth House) 举办的苏富比 Beyond limits <br>2016年等全世界著名博物馆和帕多瓦植物园里。直到2018年3月他的代表作《Field of Light》还展示在澳大利亚乌鲁鲁(Uluru)。最近他制作了即将在2018年9月牛津郡Bicester Shopping Village展示的永久公共设置作品Moon Blooms。<br> 他的作品展示在奇克伍德植物园艺术馆(Cheekwood Garden and Art Museum)，牛津的阿什莫林博物馆（Ashmolean）等全世界数一数二的博物馆里。',
       iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/rZYXP_EOsuc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
@@ -24,7 +24,7 @@ export default {
         src: '/static/images/artists/1-9.png'
       }]
     }, {
-      title: 'Tom Fruin (汤姆 弗鲁恩)<br>Brooklyn, NY',
+      title: 'Tom Fruin (汤姆 弗鲁恩)<p>Brooklyn, NY</p>',
       body: '汤姆 弗鲁恩(Tom Fruin)是名雕塑家。他出生于加利福尼亚洛杉矶，现生活在纽约布鲁克林。 弗鲁恩的艺术表现基础是从他于1996年走进纽约研究地域社会，城市再生及开发开始的。他的早期作品体现特定地区的面貌，比如他利用他所研究地区的废物制作了巨大的布艺及旗帜形状的作品。<br> 弗鲁恩从2010年起开始发表他的代表作ICON系列。此系列把平常人们不经意间错过的城市建筑风格重新修建成里程碑式的公共雕塑。把平凡的建筑用崭新的方式展现出来，目的在于把注意力集中到作品原来的样子中来。图标系列由现在的房子，供水塔，讽刺，艺术招牌等很平凡的象征物组成。此类作品成了该地区社会的标志物。<br> 弗鲁恩的作品跨越美国被邀请到世界很多展览会展示。仅纽约市就有数千名上下班的人与他的公共美术安装作品相会。<br><br>Instagram @tomfruin @intersectionartpartners',
       iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/LyTuRT0RkAs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
@@ -37,7 +37,7 @@ export default {
         src: '/static/images/artists/2-4.png'
       }]
     }, {
-      title: 'Jen Lewin (仁勒温)<br>Brooklyn, NY',
+      title: 'Jen Lewin (仁勒温)<p>Brooklyn, NY</p>',
       body: '仁勒温是主要在纽约布鲁克林活动的新媒体艺术互动雕塑家，也是国际知名作家。大规模互动作品凝聚了积累20多年她的建筑学背景知识和尖端媒体技术。她摆脱了美术展览的传统方式，有机地应用电子因素为营造富有活力的公共场所进行了创意尝试。如此这般诞生的作品融合了艺术、科技、社区，用其特有的生动感吸引着观众。<br>仁勒温其融入技术的产品被邀请到伊斯坦布尔灯光节 light festival，雪梨灯光艺术节(Vivid Sydney Festival) ，照亮滨海湾灯光艺术节（Light Marina Bay Festival），闪光佳节（signal festival），火把节（ Burning Man Festival），科罗拉多丹佛艺术双年展，光州双年展等。不仅如此，她还飞越美国在墨西哥，葡萄牙，英国举办了个人展。Jen Lewin在 Minneapolis的 Side Walk Harp, Palo Alto的 Magical Harp，科罗拉多的Promenade, Coral Springs，弗罗里达的 Ascent等世界各地设计并安装了互动雕塑作品。此外，她作为一个动感的照明设计师在宾夕法尼亚费城与Claes Oldenburg作家，与科罗拉多州范尔的Lawrence Argent一起作业在公共场所安装了永久性作品。<br><br>Instagram @jenlewinstudio',
       iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/197936778" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
@@ -52,7 +52,7 @@ export default {
         src: '/static/images/artists/3-5.png'
       }]
     }, {
-      title: 'Jean “Jonny” Pigozzi (让·皮戈齐)<br>Paris, Antibes, London, New York, Geneva, and Panama',
+      title: 'Jean “Jonny” Pigozzi (让·皮戈齐)<p>Paris, Antibes, London, New York, Geneva, and Panama</p>',
       body: '让·皮戈齐 (Jean “Jonny” Pigozzi)既是一位摄影师，艺术收藏家，也是一位慈善家，企业家。 他的根基在巴黎、昂蒂布、伦敦、纽约、日内瓦、巴拿马等世界各个城市。<br><br>他渴望展现他所具有的鲜艳而休闲的嗜好 ‘LimoLand’就是为此而诞生的时尚标签。这里凝聚了他数十年穿行世界接触的多种色彩和印染，收集全世界艺术品进行创作和积累下来的独具一格的感觉。<br><br>LimoLand的代表角色‘Mr. Limo’比起他穿着的优雅西装及形形色色的皮肤，也许是因为凸出的腹部他给人一种很亲切的感觉。最近Limo在徕卡(Leica)推出的限量版‘让·皮戈齐的徕卡Soft LimoLand’露面。 预计数百只乖巧的别具一格的Limo将亮相于济州LAF。',
       iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/nJRODHPBs3w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
@@ -63,7 +63,7 @@ export default {
         src: '/static/images/artists/4-3.jpg'
       }]
     }, {
-      title: 'Jason Krugman (杰森 克鲁格曼)<br>Brooklyn, NY',
+      title: 'Jason Krugman (杰森 克鲁格曼)<p>Brooklyn, NY</p>',
       body: 'Jason Krugman就读于 Tufts University专攻 Economics and Fine Arts。毕业后克鲁格曼没有幻想做一个优秀的艺术家而致力于经济和金融。直到金融崩溃之前他在高盛（Goldman Sachs）和美林证券（Merrill Lynch）工作，负责结构性信用交易。2007年初，没有预感到灾难即将来临的克鲁格曼重新回到了学校学习技术和艺术。在制作互动艺术的过程中，他对急剧增加的电气及对使用编码印象极其深刻。他就读于NYU的 Interactive Telecommunications Program (ITP)研究微型控制器，锡焊，数码制作及新材料。ITP中他的论文主题是排列对风敏感的LED。此论文被坎耶·维斯特(Kanye West)维护网志起第一次拿到了在大型音乐节制作较大携带性能好的版本的商业订单。之后更多人委托克鲁格曼在大型高楼和住宅安装永久性LED作品。 克鲁格曼现专注于新形式的LED作品设计及实施。为此他用手工开发了锡焊的LED网格，复杂的电缆系统及多种LED定做印刷电路板。在3D空间他主要做排列电气和照明作业。他的作品为了给光源供电也采用物理结构，用这个方法没有绝缘线及连接器，也能把数千个照明用最少的钢丝予以分配。<br><br>Instagram @jasonkrugman',
       iframe: '<iframe src="https://player.vimeo.com/video/167614688" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
@@ -82,7 +82,7 @@ export default {
         src: '/static/images/artists/5-7.jpg'
       }]
     }, {
-      title: 'Byungchan Lee (李秉赞)<br>首尔',
+      title: 'Byungchan Lee (李秉赞)<p>首尔</p>',
       body: '李秉赞作为以首尔为根据地活动的艺术家，在国际上展示了拥有华丽色彩和独特形态的大型"动力学装置"，因而备受瞩目。他在大学时期目睹的现代社会的结构是既矛盾又非正常的。“让城市这个巨大的有机体移动的是什么呢”？经过一番思考后，他的答案是"消费生态系"，而消费生态系成为了他作品的主旋律，他以视觉方式表现出与自然界不同的城市社会的消费行为。以象征着现代社会的消费和浪费的普遍素材--塑料、银箔纸为基础，利用带有刺激和动感的城市色调的灯光和声音，打造出了第三生命体(Urban Creatures)。李秉赞以2010年在AG画廊推出的首次个人展为起点，最近参加了《平昌双年展及江陵国际民俗艺术节》以及《2018年米兰设计周》等，开展着旺盛的活动。',
       iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/83UdU2VwvMg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
