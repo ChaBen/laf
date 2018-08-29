@@ -39,10 +39,10 @@
               <tspan x="564" y="434">Press</tspan>
             </text>
           </g>
-          <g id="events-main" class="svg-link vertical-link" data-gradient="events-gradient" @click="navigateTo('events')" transform="translate(7.000000, 783.000000)" @mouseover="gradient('events-gradient', 'y')" @mouseout="stopGradient">
+          <g id="funjoy-main" class="svg-link vertical-link" data-gradient="funjoy-gradient" @click="navigateTo('Fun&Joy')" transform="translate(7.000000, 783.000000)" @mouseover="gradient('funjoy-gradient', 'y')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="0 0 0 242 238.1 242 238.1 479.1 716 479.1 716 0"></polygon>
-            <text id="Events" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
-              <tspan x="528.4229" y="77.7553">Events</tspan>
+            <text id="funjoy" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+              <tspan x="528.4229" y="77.7553">Fun&Joy</tspan>
             </text>
           </g>
           <g id="tickets-main" class="svg-link horizontal-link" @click="navigateTo('tickets')" data-gradient="tickets-gradient" transform="translate(723.000000, 783.000000)" @mouseover="gradient('tickets-gradient', 'x')" @mouseout="stopGradient">
@@ -131,7 +131,7 @@
         </linearGradient>
 
         <!-- events gradient -->
-        <linearGradient id="events-gradient" x1="50%" y1="0%" x2="50%" y2="97.660236%">
+        <linearGradient id="funjoy-gradient" x1="50%" y1="0%" x2="50%" y2="97.660236%">
           <stop stop-color="#EE0077" offset="0%"></stop>
           <stop stop-color="#8F0B8A" offset="28.7308673%"></stop>
           <stop stop-color="#5E1094" offset="49.8445472%"></stop>

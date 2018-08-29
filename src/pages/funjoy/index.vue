@@ -3,18 +3,17 @@
     <header-component></header-component>
     <aside-component></aside-component>
 
-    <main class="main blog press">
+    <main class="main funjoy">
       <section class="wrap">
-        <article class="artist-article" v-for="(artist, key) in artists" :key="key">
+        <article class="artist-article" v-for="(funjoy, key) in funjoys" :key="key">
           <div class="accordion-head" @click="clickAccordion(key, $event)">
-            <h1 class="article-title" v-html="artist.title"></h1>
+            <h1 class="article-title" v-html="funjoy.title"></h1>
           </div>
           <div class="accordion-body">
-            <div class="inner" v-html="artist.body"></div>
-            <div class="iframe" v-html="artist.iframe"></div>
+            <div class="inner" v-html="funjoy.body"></div>
             <div class="sliders">
               <div class="slider" :class="`slider-${key}`">
-                <div class="slide" v-for="(slide, key) in artist.sliders" :key="key"><img :src="slide.src" /></div>
+                <div class="slide" v-for="(slide, key) in funjoy.sliders" :key="key"><img :src="slide.src" /></div>
               </div>
             </div>
           </div>
@@ -31,8 +30,8 @@ import AsideComponent from '@/pages/components/common/aside';
 export default {
   components: { HeaderComponent, AsideComponent },
   computed: {
-    artists() {
-      return this.$t('artists.data');
+    funjoys() {
+      return this.$t('funjoy.data');
     }
   },
   methods: {

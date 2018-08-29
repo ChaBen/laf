@@ -7,12 +7,12 @@
       <article>
         <div class="aboutLafS" v-if="actived">
           <p v-html="$t('about.lafs')"></p>
-          <a href="#none" @click="actived = !actived">Read more…</a>
+          <a href="#none" @click="actived = !actived">{{$t('about.down')}}</a>
         </div>
         
         <div class="aboutLaf" v-else>
           <section class="section bodyText" v-html="$t('about.laf')"></section>
-          <a href="#none" @click="actived = !actived">Hide…</a>
+          <a href="#none" @click="actived = !actived">{{$t('about.up')}}</a>
         </div>
       </article>
 

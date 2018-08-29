@@ -8,8 +8,8 @@ import Channel from '@/pages/channel';
 import Artists from '@/pages/artists';
 import About from '@/pages/about';
 import Press from '@/pages/press';
-import Events from '@/pages/events';
-import EventsView from '@/pages/events/view';
+import FunJoy from '@/pages/funjoy';
+import FunJoyView from '@/pages/funjoy/view';
 import Tickets from '@/pages/tickets';
 import News from '@/pages/news';
 import NewsView from '@/pages/news/view';
@@ -36,8 +36,8 @@ export default new Router({
     { path: '/about', component: About },
     { path: '/press', component: Press },
     { path: '/channel', component: Channel },
-    { path: '/events', component: Events },
-    { path: '/events/:id', component: EventsView },
+    { path: '/fun&joy', component: FunJoy },
+    { path: '/fun&joy/:id', component: FunJoyView },
     { path: '/tickets', component: Tickets },
     { path: '/news', component: News },
     { path: '/news/:id', component: NewsView },

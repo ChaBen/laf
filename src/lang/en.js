@@ -111,7 +111,9 @@ export default {
       src: '/static/images/about/1-4.png'
     }],
     sponsors: '<div class="inner"><h1>Sponsors</h1><p>한류문화인진흥재단<br>Songwal Towel<br>Hana Tour<br>Geo-Young<br>PHARMCLE</p></div>',
-    faq: '<div class="inner"> <h1>FAQ</h1> <ul> <li> <em><p>What is Jeju LAF?</p></em> <blockquote><p>Jeju LAF is a museum where nature and art come together. Here visitors can view works by British artist Bruce Munro, whose work is being presented in Asia for the first time, as well as by prominent New York artists Jen Lewin and Tom Fruin, Jason Krugman among others.</p></blockquote> </li> <li> <em><p>How long Jeju LAF will be presented?</p></em> <blockquote><p>It will be presented as a festival for 90 days, from July 27th, 2018 to October 24th, 2018. Jeju LAF is always open to the public after the festival ends.</p></blockquote> </li> <li> <em><p>Where is Jeju LAF?</p></em> <blockquote><p>115-1 Seongyo-ro, Jocheon-eup, Jeju, Jeju Island.<br> [Navigation Code: 7820005]</p></blockquote> </li> <li> <em><p>Who participate Jeju LAF?</p></em> <blockquote><p>Headlined by British artist Bruce Munro, Jen Lewin, Tom Fruin, Jason Krugman, Jean Pigozzi, and Byungchan Lee react to, amplify, and transform the nineteen-acre exhibition site.</p></blockquote> </li> <li> <em><p>Opening Hours</p></em> <blockquote><p>The museum is open all year round.<br> (peak season) June 15th ~ October 15th: 9am to midnight<br> (off-season)October 16th ~ June 14th: 9am to 11pm</p></blockquote> </li> <li> <em><p>How can I get there by car?</p></em> <blockquote><p>Departure from Jeju Airport to City Hall on Route 1132, and from the entrance to Hwabuk-dong towards Bonggae on Route 97. About 10 mins toward to Seonhuel from Geomun Oreum.</p> <p>Departure from Seoguipo through Route 1132, and 1118 Namjo Road or Beonyoung-ro 97. Drive toward Jeju City and it will take about 10 minutes from the entrance to Geomun Oreum.</p></blockquote> </li> <li> <em><p>Is there parking available?</p></em> <blockquote><p>Yes, there is a free parking lot.<br> Available up to 30 buses / 100 cars. [8-acre]<br> You can also charge EV cars.</p></blockquote> </li> <li> <em><p>How can I get there using public transportation?</p></em> <blockquote><p>You can get here from Jeju International Airport by bus. Let me tell you how.<br> Jeju International Airport -&gt; (take bus 101) Hamdeok Transfer stop (Hamdeok Beach) -&gt; (bus 704-1) Jeju LAF stop (former Gyeongdeokwon)</p></blockquote> </li> <li> <em><p>Is there anything else to see other than the museum?</p></em> <blockquote><p>In addition to the outdoor exhibition areas and cave exhibitions, there are various activities for visitors to enjoy such as F&amp;B and amenities, a zipline, and a foot bath experience.</p></blockquote> </li> <li> <em><p>Can visitors take photos?</p></em> <blockquote><p>Yes. You may. Record as many beautiful memories as you wish. However, any commercial use, reproduction, or sale, directly or online, of any image is strictly prohibited. No license is granted, expressed or implied, to make commercial use of any of Bruce Munro’s work. Your admission to this exhibition is conditional on your acceptance of these restrictions. Anyone wishing to seek permission for any commercial project should contact info@brucemunro.co.uk.</p></blockquote> </li> <li> <em><p>Is there a cafeteria inside the gallery?</p></em> <blockquote><p>There are some food carts and food trucks operated by local food vendors.</p></blockquote> </li> <li> <em><p>Can I rent a stroller or wheelchairs?</p></em> <blockquote><p>Yes, stroller and wheelchairs rental are available.</p></blockquote> </li> </ul> </div>'
+    faq: '<div class="inner"> <h1>FAQ</h1> <ul> <li> <em><p>What is Jeju LAF?</p></em> <blockquote><p>Jeju LAF is a museum where nature and art come together. Here visitors can view works by British artist Bruce Munro, whose work is being presented in Asia for the first time, as well as by prominent New York artists Jen Lewin and Tom Fruin, Jason Krugman among others.</p></blockquote> </li> <li> <em><p>How long Jeju LAF will be presented?</p></em> <blockquote><p>It will be presented as a festival for 90 days, from July 27th, 2018 to October 24th, 2018. Jeju LAF is always open to the public after the festival ends.</p></blockquote> </li> <li> <em><p>Where is Jeju LAF?</p></em> <blockquote><p>115-1 Seongyo-ro, Jocheon-eup, Jeju, Jeju Island.<br> [Navigation Code: 7820005]</p></blockquote> </li> <li> <em><p>Who participate Jeju LAF?</p></em> <blockquote><p>Headlined by British artist Bruce Munro, Jen Lewin, Tom Fruin, Jason Krugman, Jean Pigozzi, and Byungchan Lee react to, amplify, and transform the nineteen-acre exhibition site.</p></blockquote> </li> <li> <em><p>Opening Hours</p></em> <blockquote><p>The museum is open all year round.<br> (peak season) June 15th ~ October 15th: 9am to midnight<br> (off-season)October 16th ~ June 14th: 9am to 11pm</p></blockquote> </li> <li> <em><p>How can I get there by car?</p></em> <blockquote><p>Departure from Jeju Airport to City Hall on Route 1132, and from the entrance to Hwabuk-dong towards Bonggae on Route 97. About 10 mins toward to Seonhuel from Geomun Oreum.</p> <p>Departure from Seoguipo through Route 1132, and 1118 Namjo Road or Beonyoung-ro 97. Drive toward Jeju City and it will take about 10 minutes from the entrance to Geomun Oreum.</p></blockquote> </li> <li> <em><p>Is there parking available?</p></em> <blockquote><p>Yes, there is a free parking lot.<br> Available up to 30 buses / 100 cars. [8-acre]<br> You can also charge EV cars.</p></blockquote> </li> <li> <em><p>How can I get there using public transportation?</p></em> <blockquote><p>You can get here from Jeju International Airport by bus. Let me tell you how.<br> Jeju International Airport -&gt; (take bus 101) Hamdeok Transfer stop (Hamdeok Beach) -&gt; (bus 704-1) Jeju LAF stop (former Gyeongdeokwon)</p></blockquote> </li> <li> <em><p>Is there anything else to see other than the museum?</p></em> <blockquote><p>In addition to the outdoor exhibition areas and cave exhibitions, there are various activities for visitors to enjoy such as F&amp;B and amenities, a zipline, and a foot bath experience.</p></blockquote> </li> <li> <em><p>Can visitors take photos?</p></em> <blockquote><p>Yes. You may. Record as many beautiful memories as you wish. However, any commercial use, reproduction, or sale, directly or online, of any image is strictly prohibited. No license is granted, expressed or implied, to make commercial use of any of Bruce Munro’s work. Your admission to this exhibition is conditional on your acceptance of these restrictions. Anyone wishing to seek permission for any commercial project should contact info@brucemunro.co.uk.</p></blockquote> </li> <li> <em><p>Is there a cafeteria inside the gallery?</p></em> <blockquote><p>There are some food carts and food trucks operated by local food vendors.</p></blockquote> </li> <li> <em><p>Can I rent a stroller or wheelchairs?</p></em> <blockquote><p>Yes, stroller and wheelchairs rental are available.</p></blockquote> </li> </ul> </div>',
+    down: 'Read more...',
+    up: 'Hide...'
   },
   visit: {
     addr: '<div class="inner"> <h2>The Location</h2> <p>JEJU LIGHT ART FESTA(LAF)<br> Address : 115-1, Seongyo-ro, Jocheon-eup, Jeju-si, Jeju-do, Republic of Korea<br> Tel : 064-784-9030<br> Fax : 064-784-9032</p> <h2>By Car</h2> <p>Departure from Jeju Airport to City Hall on Route 1132 -&gt; From the entrance to Hwabuk-dong towards Bonggae on Route 97-&gt; About 10 mins toward to Seonhuel from Geomun Oreum.</p> <p>Departure from Seoguipo through Route 1132, and 1118 Namjo Road or Beonyoung-ro 97. Drive toward Jeju City and it will take about 10 minutes from the entrance to Geomun Oreum.</p> <h2>By Transportation</h2> <p>From Jeju Airport, take 325 or 326 / Transfer 704-1 or 704-3 at Hamdok High School</p> <p>Jeju Airport 101(Seogwipo Bus Terminal) / Transfer 704-1 or 704-3 at Hamdok transfer station</p>  </div>',
@@ -120,6 +122,55 @@ export default {
       src: '/static/images/visit/1-1.jpg'
     }, {
       src: '/static/images/visit/1-2.jpg'
+    }]
+  },
+  funjoy: {
+    data: [{
+      title: '짚라인 체험<p>단계를 넘어갈수록 스릴 넘치는 4단계 코스</p>',
+      body: '- 이용시간 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터<br><br> - 이용가격<br> 개인(대인,소인) : 30,000원<br> 단체 10명 이상 : 상담전화(064-784-9030) 요망<br><br> - 탑승복장<br> 머리가 긴 고객님께서는 머리를 묶어 주십시오.<br> 발 전체가 가려지는 신발을 착용해 주십시오<br> (샌들, 하이힐 등 불가)<br> 무릎 길이 이상의 바지를 착용하여 주십시오 (치마불가)<br><br> - 탑승제한<br> 몸무게 30KG이하 또는 100KG이상이신분<br> 임산부,심신허약자,심장질환자,기타 근골격계 이상이 있으신 분<br> 고도의 비행 또는 고소공포증이 있으신 분<br> 음주 하신분',
+      sliders: [{
+        src: '/static/images/funjoy/1-1.jpg'
+      }, {
+        src: '/static/images/funjoy/1-2.jpg'
+      }, {
+        src: '/static/images/funjoy/1-3.jpg'
+      }]
+    }, {
+      title: '족욕장<p>아로마오일과 녹차소금으로 피로를 푸는 족용체험</p>',
+      body: '- 이용시간<br> 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터<br><br>   - 이용가격<br> 개인(대인,소인) : 12,000원<br> 단체 10명 이상 : 상담전화(064-784-9030) 요망<br><br><br>',
+      sliders: [{
+        src: '/static/images/funjoy/2-1.jpg'
+      }, {
+        src: '/static/images/funjoy/2-2.jpg'
+      }, {
+        src: '/static/images/funjoy/2-3.jpg'
+      }]
+    }, {
+      title: '푸드트럭<p>15대의 다양한 푸드트럭 음식존</p>',
+      body: ' - 이용시간<br> 오후 6시 ~ 오후 11시 까지<br><br> - 푸드트럭 메뉴<br> 스테이크, 초밥, 피자, 디저트 등<br> ',
+      sliders: [{
+        src: '/static/images/funjoy/3-1.jpg'
+      }, {
+        src: '/static/images/funjoy/3-2.jpg'
+      }, {
+        src: '/static/images/funjoy/3-3.jpg'
+      }]
+    }, {
+      title: '동굴카페리모<p>장피고지의 리모 작품과 이병찬작가의 어반크리쳐 작품을 감상하며 즐길 수 있는 동굴 카페</p>',
+      body: '- 이용시간<br> 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터',
+      sliders: [{
+        src: '/static/images/funjoy/4-1.jpg'
+      }, {
+        src: '/static/images/funjoy/4-2.jpg'
+      }, {
+        src: '/static/images/funjoy/4-3.jpg'
+      }]
+    }, {
+      title: '카페 비라이트문<p>브루스먼로의 오름 작품에 위치한 야외 카페</p>',
+      body: '- 이용시간<br> 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터>',
+      sliders: [{
+        src: '/static/images/funjoy/5-1.jpg'
+      }]
     }]
   },
   events: {
@@ -152,11 +203,19 @@ export default {
   },
   news: {
     tags: [{
+      id: 1,
       title: 'CONTEST',
       subtitle: '2018 LAF Design Contest LIGHT:ART:FESTA CONTENTS CANVAS',
       date: '2018.06.25',
       src: '/static/images/news/jejulaf-tag-event-1.png',
       subsrc: '/static/images/news/jejulaf-contents-canvas.png'
+    }, {
+      id: 2,
+      title: 'event',
+      subtitle: 'Jeju LAF #hashtag event (HanaTour Travel Exhibition)',
+      date: '2018.06.23',
+      body: 'Event of gratitude for all those who visited Jeju Life at the HanaTour Exhibition *How to submit a contest entry ...<br><p>Event of gratitude for all those who visited Jeju<br> Life at the HanaTour Exhibition</p> <p>*How to submit a contest entry<br> Visitors to the HanaTour Exhibition can take a photo with the Jeju Life Booth in the background<br> as proof of visiting the booth. Then upload the photo to your Instagram account. (#Jeju Life #LightArtFesta required)</p>',
+      view: '<p>*Period of event contest entry<br> June 8th - 15th 2018</p> <p>*Announcement of Prizewinners<br> June 23rd, 2018 (Sat) - After the drawing, winners will be announced on the LAF<br> Official Instagram account and on the Official Naver Blog</p> <p>*Event gifts<br> 1st prize: Round trip tickets to Jeju Island on Asiana Airlines (3 winners)<br> 2nd prize: Travel carrier (5 winners)<br> 3rd prize: 20,000 won gift certificate at Starbucks (20 winners)</p>'
     }]
   },
   calendar: {

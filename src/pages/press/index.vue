@@ -5,13 +5,13 @@
 
     <main class="main blog press">
       <section class="wrap">
-        <div class="article" v-for="(pres, inx) in press" :key="inx">
+        <article class="article" v-for="(pres, inx) in press" :key="inx">
           <h1 class="article-title">
             <a :href="pres.link" target="_blank">{{pres.title}}</a>
           </h1>
           <!-- <p class="article-date">{{pres.date}}</p> -->
           <div class="text">{{pres.text}}</div>
-        </div>
+        </article>
       </section>
     </main>
   </div>

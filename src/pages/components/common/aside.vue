@@ -1,7 +1,7 @@
 <template>
   <nav id="top-menu" role="navigation" style="opacity: 1;">
     <div class="menu-svg">
-      <svg width="377px" height="2045px" viewBox="0 0 377 2045" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg width="100%" height="2045" viewBox="0 0 377 2045" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
         <desc>Created with Sketch.</desc>
         <defs>
@@ -35,10 +35,10 @@
               <tspan x="67.3178719" y="150.199685">Limo</tspan>
             </text>
           </g>
-          <g id="events-side" class="svg-link vertical-link " :class="{ active: actived('/events') }" @click="navigateTo('/events')" data-gradient="events-side-gradient" transform="translate(3.000000, 777.000000)" @mouseover="gradient('events-side-gradient', 'y')" @mouseout="stopGradient">
+          <g id="funjoy-side" class="svg-link vertical-link " :class="{ active: actived('/Fun&Joy') }" @click="navigateTo('/Fun&Joy')" data-gradient="funjoy-side-gradient" transform="translate(3.000000, 777.000000)" @mouseover="gradient('funjoy-side-gradient', 'y')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="153.400024 163 370.200024 163 370.200024 0 0.400024414 0 0.400024414 380.1 155.100024 380.1"></polygon>
-            <text id="Events" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
-              <tspan x="37.578" y="70.682">Events</tspan>
+            <text id="funjoy" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+              <tspan x="37.578" y="70.682">Fun&Joy</tspan>
             </text>
           </g>
           <g id="channel-side" class="svg-link" :class="{ active: actived('/channel') }" @click="navigateTo('/channel')" data-gradient="channel-side-gradient" transform="translate(3.000000, 1157.000000)">
@@ -144,7 +144,7 @@
         </linearGradient>
 
         <!-- events gradient -->
-        <linearGradient id="events-side-gradient" x1="50%" y1="0%" x2="50%" y2="97.660236%" data-grow="up">
+        <linearGradient id="funjoy-side-gradient" x1="50%" y1="0%" x2="50%" y2="97.660236%" data-grow="up">
           <stop stop-color="#EE0077" offset="0%"></stop>
           <stop stop-color="#8F0B8A" offset="28.7308673%"></stop>
           <stop stop-color="#5E1094" offset="49.8445472%"></stop>

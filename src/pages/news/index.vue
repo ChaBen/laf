@@ -15,14 +15,15 @@
       <section class="wrap">
         <article class="article" v-for="tag in $t('news.tags')" :key="tag.id">
           <h1 class="article-title" style="font-size:35px;">
-            <router-link to="/news/context" class="ui-link">{{tag.subtitle}}</router-link>
+            <router-link :to="`/news/${tag.id}`" class="ui-link">{{tag.subtitle}}</router-link>
           </h1>
           <div class="view-more">
             <p>{{tag.title}}</p>
-            <p><router-link to="/events/www">view more</router-link></p>
+            <p><router-link :to="`/news/${tag.id}`">view more</router-link></p>
           </div>
           <figure>
             <img :src="tag.src">
+            <div class="inner" v-html="tag.body"></div>
           </figure>
         </article>
       </section>
@@ -31,13 +32,12 @@
 </template>
 
 <script>
-  import HeaderComponent from '@/pages/components/common/header';
-  import AsideComponent from '@/pages/components/common/aside';
-  export default {
-    components: {
-      HeaderComponent,
-      AsideComponent
-    }
+import HeaderComponent from '@/pages/components/common/header';
+import AsideComponent from '@/pages/components/common/aside';
+export default {
+  components: {
+    HeaderComponent,
+    AsideComponent
   }
-
+}
 </script>

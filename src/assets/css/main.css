@@ -424,9 +424,9 @@ text { -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select:
 #visit-main polygon:hover { fill: url(#visit-gradient); }
 #visit-side path:hover { fill: url(#visit-side-gradient); }
 #visit-side.active path { fill: url(#visit-side-gradient); }
-#events-main polygon:hover { fill: url(#events-gradient); }
-#events-side polygon:hover { fill: url(#events-side-gradient); }
-#events-side.active polygon { fill: url(#events-side-gradient); }
+#funjoy-main polygon:hover { fill: url(#funjoy-gradient); }
+#funjoy-side polygon:hover { fill: url(#funjoy-side-gradient); }
+#funjoy-side.active polygon { fill: url(#funjoy-side-gradient); }
 #limo-main rect:hover { fill: url(#limo-gradient); }
 #limo-side rect:hover { fill: url(#limolimo-side-gradient); }
 #limo-side.active rect { fill: url(#limolimo-side-gradient); }
@@ -450,7 +450,7 @@ text { -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select:
 #channel-side:hover, #channel-side.active { fill: transparent; }
 #channel-side:hover polygon, #channel-side.active polygon { fill: transparent; }
 #RightNav { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
-#top-menu { width: 25.69vw; height: calc(100% - 7.8vw); top: 7.916vw; margin-top: 3px; position: fixed; z-index: 3; overflow-y: scroll; overflow-x: hidden; -webkit-overflow-scrolling: touch; background: url(/static/images/_-1.jpg) repeat 0 0; background-size: cover; }
+#top-menu { width: 25.69vw; height: calc(100% - 7.8vw); top: 7.916vw; margin-top: 3px; position: fixed; z-index: 3; overflow-y: scroll; overflow-x: hidden; -webkit-overflow-scrolling: touch; background: url(/static/images/static.gif) repeat 0 0; background-size: cover; }
 #top-menu::-webkit-scrollbar { display: none; width: 0px; background: transparent; }
 #top-menu:after { content: ''; border-right: 3px solid #fff; position: fixed; top: 0; width: 1px; height: 100%; left: 25.69vw; }
 @media only screen and (max-width:767px) {
@@ -461,7 +461,8 @@ text { -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select:
 #top-menu:hover { cursor: url(/static/images/arrow-down.png) 15 58, auto; }
 .show-channel #top-menu { display: none; }
 #top-menu .menu-svg { margin-left: -5px; margin-right: -5px; }
-#top-menu .menu-svg svg { width: 100%; height: auto; }
+#top-menu .menu-svg svg { height: auto; }
+*::-ms-backdrop #top-menu .menu-svg svg { height: initial; }
 #top-menu .menu { width: 100%; position: absolute; top: 0; left: 0; }
 @media only screen and (max-width:767px) {
   #top-menu .menu { padding-top: 6rem; }
@@ -963,9 +964,11 @@ body.tickets .vendor-list { clear: both; }
 .about .slider { border-top: 0; margin-top: 0; border-bottom: 2px solid #fff; }
 .about .slick-slide div { line-height: 0; }
 .columns { overflow: hidden; }
-#main-menu svg { background: url(/static/images/_-2.jpg) repeat 0 0; background-size: contain; }
+#main-menu svg { background: url(/static/images/static.gif) repeat 0 0; background-size: contain; }
 .social { margin-left: 10px; }
 .faq-list blockquote { margin-top: 10px; }
 .limolimo .slick-slider { margin-top: 0; border: 0; }
 .wrap .view-more { display: flex; flex-direction: row; justify-content: space-between; }
 .wrap .view-more p { display: flex; margin-top: 1em; }
+.funjoy .slick-slider { margin-top: 0; border-top: 0; }
+.tags li { margin-bottom: 20px; }

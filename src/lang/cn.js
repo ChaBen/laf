@@ -112,6 +112,8 @@ export default {
     }],
     sponsors: '<div class="inner"> <h1>赞助商</h1> <p>한류문화인진흥재단<br> 松月毛巾<br> HANA TOUR<br> GEO-YOUNG<br> PHARMCLE</p>  </div>',
     faq: '<div class="inner"> <h1>FAQ</h1> <ul> <li> <em><p>请介绍一下济州LAF。</p></em> <blockquote><p>济州LAF是融合自然和艺术的博物馆。<br> 占地3万多坪，由博物馆和户外7个展示厅构成，是在平岩池（音译）与Gotjawal 、自然洞窟交融的济州独有的自然风景中，展示世界级艺术家作品的空间。<br> 在这里可以欣赏到在亚洲首次推出作品的布鲁斯•蒙罗和代表纽约的 Tom Fruin、 Jen Lewin 等的作品。<br> 希望大家在自然(Echo)和技术(Technology)共存的济州LAF，留下美好的回忆。</p></blockquote> </li> <li> <em><p>我打算乘车前往济州LAF，请说明一下位置及路线。</p></em> <blockquote><ol> <li>济州特别自治道济州市朝天邑善桥邑117号[导航仪代码:7820005]</li> <li>路线<br> <em>从济州机场出发-&gt;向1132号一周道路市政府方向行驶，在禾北洞入口-&gt;向97号繁荣路奉盖方向行驶-&gt;从拒文岳入口向善屹大约行驶10分钟。<br> </em>从西归浦出发-&gt;1132号一周道路-&gt;1118号南朝路或97号繁荣路-&gt;-向济州市方向行驶-&gt;从拒文岳入口向善屹大约行驶10分钟。</li> </ol></blockquote> </li> <li> <em><p>可以停车吗?</p></em> <blockquote><p>准备了面积达1000坪的停车空间，可以容纳30辆公交车和100辆轿车。访问济州LAF的游客可以免费停车。此外，还设置了电动汽车充电器。</p></blockquote> </li> <li> <em><p>利用公共交通的方法是什么?</p></em> <blockquote><p>向您介绍从济州国际机场乘坐公交车的方法。<br> 济州国际机场-&gt;(乘坐101路公交车)咸德换乘站(咸德海水浴场)-&gt;(704-1路公交车)济州LAF车站(原炅德院)</p></blockquote> </li> <li> <em><p>这里 除了博物馆以外，还有其他设施吗?</p></em> <blockquote><p>除了户外展示空间及洞窟展示空间外，还有F&amp;B和配套设施、高空飞索、足浴体验场等游乐设施。</p></blockquote> </li> <li> <em><p>我想知道预约及打折优惠和团体折扣情况。</p></em> <blockquote><p>请拨打预约咨询电话064-784-9030，我们会为您提供亲切的说明。</p></blockquote> </li> <li> <em><p>布鲁斯·蒙罗(Bruce Munro)是谁?</p></em> <blockquote><p>以大规模沉浸式安装作业而闻名的英国作家。在济州LAF的展示是他在亚洲的首次展示，用灯光渲染了济州岛伟大的自然。蒙罗对光的哲学就蕴含在济州LAF中。</p></blockquote> </li> <li> <em><p>济州LAF的门票和参观时间及休息日?</p></em> <blockquote><p>全年无休。<br> 分为白天及夜间运营。 (韩国标准)<br> 白天：上午10:00~下午05:00(冬季到下午4点)<br> 夜间：傍晚05:00~晚11:00(夏季到12点)</p></blockquote> </li> <li> <em><p>可以拍照吗?</p></em> <blockquote><p>是的，可以，请尽情地留下美好的回忆。</p></blockquote> </li> <li> <em><p>可以租赁婴儿车和轮椅吗?</p></em> <blockquote><p>是的，我们将尽最大努力为游客提供便利。</p></blockquote> </li> </ul> </div>',
+    down: 'Read more...',
+    up: 'Hide...'
   },
   visit: {
     addr: '<div class="inner"> <h2>展示场所</h2> <p>济州LAF<br> 地址：济州岛济州市朝天邑善桥路115-1号<br> 电话：064-784-9030<br> 传真：064-784-9032</p> <h2>LAF来访路线（自驾车）</h2> <p>利用繁荣路<br> 济州机场奥拉五道口(9点方向)→国立博物馆十字路口(表善、奉盖方向右转)→繁荣路(97号公路)→大屹交叉路(咸台、卧山左转)→卧善路方向右转→善屹、北村方向(左转后900米)→济州LAF</p> <p>利用连三路<br> 济州机场月城十字路口(右转)→连三路(7.33公里)→道连十字路口((表善、奉盖方向右转) →善屹、会泉洞（左转）→中间山道路善仁洞（ 善屹、北村左转）→ 善屹、北村方向(左转后900米)→济州LAF</p> <h2>LAF来访路线（公共交通）</h2> <p>在济州机场乘坐325或326路公交车/咸德高中704-1路或704-3路→ 济州LAF</p> <p>在济州机场乘坐101(西归浦公交车站)/咸德换乘车站704-1路或704-3路→ 济州LAF</p>  </div>',
@@ -120,6 +122,55 @@ export default {
       src: '/static/images/visit/1-1.jpg'
     }, {
       src: '/static/images/visit/1-2.jpg'
+    }]
+  },
+  funjoy: {
+    data: [{
+      title: '짚라인 체험<p>단계를 넘어갈수록 스릴 넘치는 4단계 코스</p>',
+      body: '- 이용시간 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터<br><br> - 이용가격<br> 개인(대인,소인) : 30,000원<br> 단체 10명 이상 : 상담전화(064-784-9030) 요망<br><br> - 탑승복장<br> 머리가 긴 고객님께서는 머리를 묶어 주십시오.<br> 발 전체가 가려지는 신발을 착용해 주십시오<br> (샌들, 하이힐 등 불가)<br> 무릎 길이 이상의 바지를 착용하여 주십시오 (치마불가)<br><br> - 탑승제한<br> 몸무게 30KG이하 또는 100KG이상이신분<br> 임산부,심신허약자,심장질환자,기타 근골격계 이상이 있으신 분<br> 고도의 비행 또는 고소공포증이 있으신 분<br> 음주 하신분',
+      sliders: [{
+        src: '/static/images/funjoy/1-1.jpg'
+      }, {
+        src: '/static/images/funjoy/1-2.jpg'
+      }, {
+        src: '/static/images/funjoy/1-3.jpg'
+      }]
+    }, {
+      title: '족욕장<p>아로마오일과 녹차소금으로 피로를 푸는 족용체험</p>',
+      body: '- 이용시간<br> 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터<br><br>   - 이용가격<br> 개인(대인,소인) : 12,000원<br> 단체 10명 이상 : 상담전화(064-784-9030) 요망<br><br><br>',
+      sliders: [{
+        src: '/static/images/funjoy/2-1.jpg'
+      }, {
+        src: '/static/images/funjoy/2-2.jpg'
+      }, {
+        src: '/static/images/funjoy/2-3.jpg'
+      }]
+    }, {
+      title: '푸드트럭<p>15대의 다양한 푸드트럭 음식존</p>',
+      body: ' - 이용시간<br> 오후 6시 ~ 오후 11시 까지<br><br> - 푸드트럭 메뉴<br> 스테이크, 초밥, 피자, 디저트 등<br> ',
+      sliders: [{
+        src: '/static/images/funjoy/3-1.jpg'
+      }, {
+        src: '/static/images/funjoy/3-2.jpg'
+      }, {
+        src: '/static/images/funjoy/3-3.jpg'
+      }]
+    }, {
+      title: '동굴카페리모<p>장피고지의 리모 작품과 이병찬작가의 어반크리쳐 작품을 감상하며 즐길 수 있는 동굴 카페</p>',
+      body: '- 이용시간<br> 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터',
+      sliders: [{
+        src: '/static/images/funjoy/4-1.jpg'
+      }, {
+        src: '/static/images/funjoy/4-2.jpg'
+      }, {
+        src: '/static/images/funjoy/4-3.jpg'
+      }]
+    }, {
+      title: '카페 비라이트문<p>브루스먼로의 오름 작품에 위치한 야외 카페</p>',
+      body: '- 이용시간<br> 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터>',
+      sliders: [{
+        src: '/static/images/funjoy/5-1.jpg'
+      }]
     }]
   },
   events: {
@@ -152,11 +203,19 @@ export default {
   },
   news: {
     tags: [{
+      id: 1,
       title: '콘테스트',
       subtitle: '2018 LAF 设计征集展 LIGHT:ART:FESTA CONTENTS CANVAS',
       date: '2018.06.25',
       src: '/static/images/news/jejulaf-tag-event-1.png',
       subsrc: '/static/images/news/jejulaf-contents-canvas.png'
+    }, {
+      id: 2,
+      title: '活动',
+      subtitle: '济州LAF#主题标签活动（HANATOUR旅行博览会',
+      date: '2018.06.23',
+      body: 'HANATOUR旅行博览会向参观济州LAF的游客献上的感谢活动 *申请方法 参加HANATOUR旅行博览会的人中，拍摄可以看到济州LAF展台的认证照片，上传到 Instagram账户上。 (#济州LAF#灯光艺术节必需) *活动申请期间 2018年06月 08日 – 06月 15日 *公布获奖者 2018年06月 23日(周六) – 预定抽奖后在 LAF官方Instagram & 官方博客 (NAVER)上公布 *活动礼物 1等奖 济州韩亚航空往返机票(3人) 2等奖 旅行箱(5人) 3等奖 星巴克礼券，相当于2万韩元 (20人)',
+      view: '<p>HANATOUR旅行博览会向参观济州LAF的游客献上的感谢活动</p> <p>*申请方法<br> 参加HANATOUR旅行博览会的人中，拍摄可以看到济州LAF展台的认证照片，上传到 Instagram账户上。<br> (#济州LAF#灯光艺术节必需)</p> <p>*活动申请期间<br> 2018年06月 08日 – 06月 15日</p> <p>*公布获奖者<br> 2018年06月 23日(周六) – 预定抽奖后在 LAF官方Instagram &amp; 官方博客 (NAVER)上公布</p> <p>*活动礼物<br> 1等奖 济州韩亚航空往返机票(3人)<br> 2等奖 旅行箱(5人)<br> 3等奖 星巴克礼券，相当于2万韩元 (20人)</p>'
     }]
   },
   calendar: {
