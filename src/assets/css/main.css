@@ -450,7 +450,7 @@ text { -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select:
 #channel-side:hover, #channel-side.active { fill: transparent; }
 #channel-side:hover polygon, #channel-side.active polygon { fill: transparent; }
 #RightNav { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
-#top-menu { width: 25.69vw; height: calc(100% - 7.8vw); top: 7.916vw; margin-top: 3px; position: fixed; z-index: 3; overflow-y: scroll; overflow-x: hidden; -webkit-overflow-scrolling: touch; background: url(/static/images/static.gif) repeat 0 0; background-size: cover; }
+#top-menu { width: 25.69vw; height: calc(100% - 7.8vw); top: 7.916vw; margin-top: 3px; position: fixed; z-index: 3; overflow-y: scroll; overflow-x: hidden; -webkit-overflow-scrolling: touch; background-size: cover; }
 #top-menu::-webkit-scrollbar { display: none; width: 0px; background: transparent; }
 #top-menu:after { content: ''; border-right: 3px solid #fff; position: fixed; top: 0; width: 1px; height: 100%; left: 25.69vw; }
 @media only screen and (max-width:767px) {
@@ -965,7 +965,7 @@ body.tickets .vendor-list { clear: both; }
 .about .slider { border-top: 0; margin-top: 0; border-bottom: 2px solid #fff; }
 .about .slick-slide div { line-height: 0; }
 .columns { overflow: hidden; }
-#main-menu svg { background: url(/static/images/static.gif) repeat 0 0; background-size: contain; }
+/* #main-menu svg { background: url(/static/images/static.gif) repeat 0 0; background-size: contain; } */
 .social { margin-left: 10px; }
 .faq-list blockquote { margin-top: 10px; }
 .limolimo .slick-slider { margin-top: 0; border: 0; }

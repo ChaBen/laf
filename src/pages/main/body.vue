@@ -191,10 +191,10 @@
                 <tspan x="67.3178719" y="150.199685">Limo</tspan>
               </text>
             </g>
-            <g id="events-side" class="svg-link vertical-link " data-gradient="events-side-gradient" @click="navigateTo('events')"  transform="translate(3.000000, 777.000000)">
+            <g id="funjoy-side" class="svg-link vertical-link " data-gradient="funjoy-side-gradient" @click="navigateTo('Fun&Joy')"  transform="translate(3.000000, 777.000000)">
               <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="153.400024 163 370.200024 163 370.200024 0 0.400024414 0 0.400024414 380.1 155.100024 380.1"></polygon>
-              <text id="Events" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
-                <tspan x="37.578" y="70.682">Events</tspan>
+              <text id="funjoy" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+                <tspan x="37.578" y="70.682">Fun&joy</tspan>
               </text>
             </g>
             <g id="channel-side" class="svg-link " data-gradient="channel-side-gradient" @click="navigateTo('channel')" transform="translate(3.000000, 1157.000000)">
@@ -300,7 +300,7 @@
           </linearGradient>
 
           <!-- events gradient -->
-          <linearGradient id="events-side-gradient" x1="50%" y1="0%" x2="50%" y2="97.660236%" data-grow="up">
+          <linearGradient id="funjoy-side-gradient" x1="50%" y1="0%" x2="50%" y2="97.660236%" data-grow="up">
             <stop stop-color="#EE0077" offset="0%"></stop>
             <stop stop-color="#8F0B8A" offset="28.7308673%"></stop>
             <stop stop-color="#5E1094" offset="49.8445472%"></stop>
