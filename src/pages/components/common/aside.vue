@@ -11,51 +11,51 @@
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g id="about-side" class="svg-link horizontal-link " :class="{ active: actived('/about') }" @click="navigateTo('/about')" data-gradient="about-side-gradient" transform="translate(4.000000, 303.000000)" @mouseover="gradient('about-side-gradient', 'x')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="0.3 0 0 476.1 370 0"></polygon>
-            <text id="About" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+            <text id="About" fill="#FFFFFF" font-family="Arial" font-size="40" font-weight="normal">
               <tspan x="37.681" y="72.1905">About</tspan>
             </text>
           </g>
           <g id="visit-side" class="svg-link radial-link " :class="{ active: actived('/visit') }" @click="navigateTo('/visit')" data-gradient="visit-side-gradient" transform="translate(3.000000, 301.000000)" @mouseover="gradient('visit-side-gradient', 'r')" @mouseout="stopGradient">
             <path d="M0.1,476.1 L369.9,476.1 L369.9,0 C246.6,158.7 123.4,317.4 0.1,476.1 Z" id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero"></path>
-            <text id="Visit" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+            <text id="Visit" fill="#FFFFFF" font-family="Arial" font-size="40" font-weight="normal">
               <tspan x="243.411" y="438.5404">V</tspan>
               <tspan x="269.016469" y="438.5404">isit</tspan>
             </text>
           </g>
           <g id="press-side" class="svg-link radial-link" :class="{ active: actived('/press') }" @click="navigateTo('/press')" data-gradient="press-side-gradient" transform="translate(3.000000, 1744.000000)" @mouseover="gradient('press-side-gradient', 'r')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="246.466732 0.699951172 246.466732 109.953302 123.233489 109.953302 0.100110688 109.953302 0.100110688 199.333329 0.100110688 298.699951 123.233489 298.699951 246.466732 298.699951 369.600111 298.699951 369.600111 199.333329 369.600111 100.066573 369.600111 0.699951172"></polygon>
-            <text id="Press" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal" fill="#FFFFFF">
+            <text id="Press" font-family="Arial" font-size="40" font-weight="normal" fill="#FFFFFF">
               <tspan x="226.316216" y="264">Press</tspan>
             </text>
           </g>
           <g id="limo-side" class="svg-link radial-link " :class="{ active: actived('/limolimo') }" @click="navigateTo('/limolimo')" data-gradient="limo-side-gradient" transform="translate(155.000000, 939.000000)" @mouseover="gradient('limolimo-side-gradient', 'r')" @mouseout="stopGradient">
             <rect id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" x="0.8" y="0" width="217.3" height="217.996544"></rect>
-            <text id="LimoLimo" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+            <text id="LimoLimo" fill="#FFFFFF" font-family="Arial" font-size="40" font-weight="normal">
               <tspan x="67.3178719" y="103.199685">Limo</tspan>
               <tspan x="67.3178719" y="150.199685">Limo</tspan>
             </text>
           </g>
           <g id="funjoy-side" class="svg-link vertical-link " :class="{ active: actived('/Fun&Joy') }" @click="navigateTo('/Fun&Joy')" data-gradient="funjoy-side-gradient" transform="translate(3.000000, 777.000000)" @mouseover="gradient('funjoy-side-gradient', 'y')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="153.400024 163 370.200024 163 370.200024 0 0.400024414 0 0.400024414 380.1 155.100024 380.1"></polygon>
-            <text id="funjoy" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+            <text id="funjoy" fill="#FFFFFF" font-family="Arial" font-size="40" font-weight="normal">
               <tspan x="37.578" y="70.682">Fun&Joy</tspan>
             </text>
           </g>
           <g id="channel-side" class="svg-link" :class="{ active: actived('/channel') }" @click="navigateTo('/channel')" data-gradient="channel-side-gradient" transform="translate(3.000000, 1157.000000)">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="0.100108106 0 0.100108106 161.799998 0.100108106 323.599996 0.100108106 485.399994 123.466649 485.399994 123.466649 323.599996 246.733135 323.599996 246.733135 161.799998 370.099676 161.799998 370.099676 0"></polygon>
-            <text id="Channel" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+            <text id="Channel" fill="#FFFFFF" font-family="Arial" font-size="40" font-weight="normal">
               <tspan x="36.6159415" y="71.3977">Channel</tspan>
             </text>
           </g>
           <g id="artists-side" class="svg-link vertical-link" :class="{ active: actived('/artists') }" @click="navigateTo('/artists')" data-gradient="artists-side-gradient" transform="translate(3.000000, 2.000000)" @mouseover="gradient('artists-side-gradient', 'y')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="0.499326146 0 0.499326146 100.366722 0.499326146 200.633278 0.499326146 301 123.699748 301 246.800252 301 370.000674 301 370.000674 110.483527 246.800252 110.483527 123.699748 110.483527 123.699748 0"></polygon>
-            <text id="Artists" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+            <text id="Artists" fill="#FFFFFF" font-family="Arial" font-size="40" font-weight="normal">
               <tspan x="201.726415" y="267">Artists</tspan>
             </text>
           </g>
           <g id="news-side" class="svg-link horizontal-link " :class="{ active: actived('/news') }" @click="navigateTo('/news')" data-gradient="news-side-gradient" transform="translate(124.000000, 1312.000000)" @mouseover="gradient('news-side-gradient', 'x')" @mouseout="stopGradient">
             <polygon id="Shape" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" points="118.650002 0 118.449759 164.697224 0 164.697224 0 326.399994 246.499031 326.399994 246.999639 0"></polygon>
-            <text id="News" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+            <text id="News" fill="#FFFFFF" font-family="Arial" font-size="40" font-weight="normal">
               <tspan x="100.112975" y="293.1541">News</tspan>
             </text>
           </g>
@@ -64,13 +64,13 @@
               <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
               <rect stroke="#FFFFFF" stroke-width="3" x="2.30112128" y="1.5" width="369.49866" height="107"></rect>
             </g>
-            <text fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+            <text fill="#FFFFFF" font-family="Arial" font-size="40" font-weight="normal">
               <tspan x="107.802621" y="76">Calendar</tspan>
             </text>
           </g>
           <g id="tickets-side" class="svg-link horizontal-link " :class="{ active: actived('/tickets') }" @click="navigateTo('/tickets')" data-gradient="tickets-side-gradient" transform="translate(3.000000, 1746.000000)" @mouseover="gradient('tickets-side-gradient', 'x')" @mouseout="stopGradient">
             <rect id="Rectangle" stroke="#FFFFFF" stroke-width="3" fill="#000000" fill-rule="nonzero" x="0.300048828" y="0" width="247" height="109.70005"></rect>
-            <text id="Tickets" fill="#FFFFFF" font-family=".SFNSDisplay, .SF NS Display" font-size="40" font-weight="normal">
+            <text id="Tickets" fill="#FFFFFF" font-family="Arial" font-size="40" font-weight="normal">
               <tspan x="60.7089844" y="74">Tickets</tspan>
             </text>
           </g>
