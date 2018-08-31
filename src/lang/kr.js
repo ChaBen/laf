@@ -103,8 +103,6 @@ export default {
         src: '/static/images/artists/6-3.jpg'
       }, {
         src: '/static/images/artists/6-4.jpg'
-      }, {
-        src: '/static/images/artists/6-5.jpg'
       }]
     }]
   },
