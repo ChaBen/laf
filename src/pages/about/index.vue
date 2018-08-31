@@ -52,11 +52,9 @@ export default {
     }
   },
   mounted() {
-    this.$nextTick(function() {
-      $('.slider').slick({
-        dots: true,
-        adaptiveHeight: true
-      });
+    $('.slider').slick({
+      dots: true,
+      adaptiveHeight: true
     });
   }
 }

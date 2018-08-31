@@ -29,11 +29,9 @@ export default {
   components: { HeaderComponent, AsideComponent },
   mounted() {
     this.map();
-    this.$nextTick(function() {
-      $('.slider').slick({
-        dots: true,
-        adaptiveHeight: true
-      });
+    $('.slider').slick({
+      dots: true,
+      adaptiveHeight: true
     });
   },
   methods: {

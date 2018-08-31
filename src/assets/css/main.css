@@ -975,5 +975,5 @@ body.tickets .vendor-list { clear: both; }
 .funjoy .slick-slider { margin-top: 0; border-top: 0; }
 .tags li { margin-bottom: 20px; }
 .back { display: inline-block; line-height: 50px; font-size: 50px; }
-/* .slick-list, .slick-track, .slick-slide { height:100% !important; }
-.slick-slide > div { height:100%; } */
+.slick-list, .slick-track, .slick-slide { height:100% !important; }
+.slick-slide > div { height:100%; }

@@ -36,11 +36,9 @@ import ImgLoad from '@/pages/components/tag/img-load';
 export default {
   components: { HeaderComponent, AsideComponent, ImgLoad },
   mounted() {
-    this.$nextTick(function() {
-      $('.slick-list').slick({
-        dots: true,
-        adaptiveHeight: true
-      });
+    $('.slick-list').slick({
+      dots: true,
+      adaptiveHeight: true
     });
   }
 }
