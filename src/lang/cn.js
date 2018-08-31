@@ -7,49 +7,57 @@ export default {
       sliders: [{
         src: '/static/images/artists/1-1.png'
       }, {
-        src: '/static/images/artists/1-2.png'
+        src: '/static/images/artists/1-2.jpg'
       }, {
-        src: '/static/images/artists/1-3.png'
+        src: '/static/images/artists/1-3.jpg'
       }, {
-        src: '/static/images/artists/1-4.png'
+        src: '/static/images/artists/1-4.jpg'
       }, {
-        src: '/static/images/artists/1-5.png'
+        src: '/static/images/artists/1-5.jpg'
       }, {
-        src: '/static/images/artists/1-6.png'
+        src: '/static/images/artists/1-6.jpg'
       }, {
-        src: '/static/images/artists/1-7.png'
+        src: '/static/images/artists/1-7.jpg'
       }, {
-        src: '/static/images/artists/1-8.png'
+        src: '/static/images/artists/1-8.jpg'
       }, {
-        src: '/static/images/artists/1-9.png'
+        src: '/static/images/artists/1-9.jpg'
+      }, {
+        src: '/static/images/artists/1-10.jpg'
+      }, {
+        src: '/static/images/artists/1-11.jpg'
+      }, {
+        src: '/static/images/artists/1-12.jpg'
       }]
     }, {
       title: 'Tom Fruin (汤姆 弗鲁恩)<p>Brooklyn, NY</p>',
       body: '汤姆 弗鲁恩(Tom Fruin)是名雕塑家。他出生于加利福尼亚洛杉矶，现生活在纽约布鲁克林。 弗鲁恩的艺术表现基础是从他于1996年走进纽约研究地域社会，城市再生及开发开始的。他的早期作品体现特定地区的面貌，比如他利用他所研究地区的废物制作了巨大的布艺及旗帜形状的作品。<br> 弗鲁恩从2010年起开始发表他的代表作ICON系列。此系列把平常人们不经意间错过的城市建筑风格重新修建成里程碑式的公共雕塑。把平凡的建筑用崭新的方式展现出来，目的在于把注意力集中到作品原来的样子中来。图标系列由现在的房子，供水塔，讽刺，艺术招牌等很平凡的象征物组成。此类作品成了该地区社会的标志物。<br> 弗鲁恩的作品跨越美国被邀请到世界很多展览会展示。仅纽约市就有数千名上下班的人与他的公共美术安装作品相会。<br><br>Instagram @tomfruin @intersectionartpartners',
       iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/LyTuRT0RkAs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
-        src: '/static/images/artists/2-1.png'
+        src: '/static/images/artists/2-1.jpg'
       }, {
-        src: '/static/images/artists/2-2.png'
+        src: '/static/images/artists/2-2.jpg'
       }, {
-        src: '/static/images/artists/2-3.png'
+        src: '/static/images/artists/2-3.jpg'
       }, {
-        src: '/static/images/artists/2-4.png'
+        src: '/static/images/artists/2-4.jpg'
+      }, {
+        src: '/static/images/artists/2-5.jpg'
       }]
     }, {
       title: 'Jen Lewin (仁勒温)<p>Brooklyn, NY</p>',
       body: '仁勒温是主要在纽约布鲁克林活动的新媒体艺术互动雕塑家，也是国际知名作家。大规模互动作品凝聚了积累20多年她的建筑学背景知识和尖端媒体技术。她摆脱了美术展览的传统方式，有机地应用电子因素为营造富有活力的公共场所进行了创意尝试。如此这般诞生的作品融合了艺术、科技、社区，用其特有的生动感吸引着观众。<br>仁勒温其融入技术的产品被邀请到伊斯坦布尔灯光节 light festival，雪梨灯光艺术节(Vivid Sydney Festival) ，照亮滨海湾灯光艺术节（Light Marina Bay Festival），闪光佳节（signal festival），火把节（ Burning Man Festival），科罗拉多丹佛艺术双年展，光州双年展等。不仅如此，她还飞越美国在墨西哥，葡萄牙，英国举办了个人展。Jen Lewin在 Minneapolis的 Side Walk Harp, Palo Alto的 Magical Harp，科罗拉多的Promenade, Coral Springs，弗罗里达的 Ascent等世界各地设计并安装了互动雕塑作品。此外，她作为一个动感的照明设计师在宾夕法尼亚费城与Claes Oldenburg作家，与科罗拉多州范尔的Lawrence Argent一起作业在公共场所安装了永久性作品。<br><br>Instagram @jenlewinstudio',
       iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/197936778" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
-        src: '/static/images/artists/3-1.png'
+        src: '/static/images/artists/3-1.jpg'
       }, {
-        src: '/static/images/artists/3-2.png'
+        src: '/static/images/artists/3-2.jpg'
       }, {
-        src: '/static/images/artists/3-3.png'
+        src: '/static/images/artists/3-3.jpg'
       }, {
-        src: '/static/images/artists/3-4.png'
+        src: '/static/images/artists/3-4.jpg'
       }, {
-        src: '/static/images/artists/3-5.png'
+        src: '/static/images/artists/3-5.jpg'
       }]
     }, {
       title: 'Jean “Jonny” Pigozzi (让·皮戈齐)<p>Paris, Antibes, London, New York, Geneva, and Panama</p>',
@@ -80,6 +88,10 @@ export default {
         src: '/static/images/artists/5-6.jpg'
       }, {
         src: '/static/images/artists/5-7.jpg'
+      }, {
+        src: '/static/images/artists/5-8.jpg'
+      }, {
+        src: '/static/images/artists/5-9.jpg'
       }]
     }, {
       title: 'Byungchan Lee (李秉赞)<p>首尔</p>',

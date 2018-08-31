@@ -39,7 +39,7 @@ export default {
         dots: true,
         adaptiveHeight: true
       });
-    }, 10);
+    }, 100);
   }
 }
 </script>

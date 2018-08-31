@@ -7,49 +7,57 @@ export default {
       sliders: [{
         src: '/static/images/artists/1-1.png'
       }, {
-        src: '/static/images/artists/1-2.png'
+        src: '/static/images/artists/1-2.jpg'
       }, {
-        src: '/static/images/artists/1-3.png'
+        src: '/static/images/artists/1-3.jpg'
       }, {
-        src: '/static/images/artists/1-4.png'
+        src: '/static/images/artists/1-4.jpg'
       }, {
-        src: '/static/images/artists/1-5.png'
+        src: '/static/images/artists/1-5.jpg'
       }, {
-        src: '/static/images/artists/1-6.png'
+        src: '/static/images/artists/1-6.jpg'
       }, {
-        src: '/static/images/artists/1-7.png'
+        src: '/static/images/artists/1-7.jpg'
       }, {
-        src: '/static/images/artists/1-8.png'
+        src: '/static/images/artists/1-8.jpg'
       }, {
-        src: '/static/images/artists/1-9.png'
+        src: '/static/images/artists/1-9.jpg'
+      }, {
+        src: '/static/images/artists/1-10.jpg'
+      }, {
+        src: '/static/images/artists/1-11.jpg'
+      }, {
+        src: '/static/images/artists/1-12.jpg'
       }]
     }, {
       title: 'Tom Fruin (トム・フルイン)<p>Brooklyn, NY</p>',
       body: 'トム・フルインは、彫刻家としてカリフォルニア・ロサンゼルスで生まれて現在はニューヨーク・ブルックリンに住んでいる。フルインの芸術的な表現は彼が最初1996年ニューヨークに移って地域社会、都市再生及び開発に対する概念を探求し始めた時からである。彼の初期作品には特定地域の様子が盛り込まれているが、彼が探求した地域で発生した残存物を利用して製作した大きなキルト又は旗の形態がその例だといえる。<br>フルインは2010年から彼の代表作ICONシリーズを発表した。このシリーズは普段人々が思わず通り過ぎる都市の建築様式を記念碑的な公共彫刻物に再誕生させた。日常的な構造物を新たな方式で提示することで、却って作品の元々の様子に再び集中させる意図を表現しようとした。アイコンシリーズは、現在の家、給水塔、風刺、芸術的な看板などその他平凡だが象徴的な構造物に構成されている。このような作品は該当地域社会の標識物になった。<br>フルインの作品は米国を越えて国際的に数多くの展示会に招待された。ニューヨーク市内のみで数千人の通勤者が彼の公共美術設置作品を接している。<br><br>Instagram @tomfruin @intersectionartpartners',
       iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/LyTuRT0RkAs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
-        src: '/static/images/artists/2-1.png'
+        src: '/static/images/artists/2-1.jpg'
       }, {
-        src: '/static/images/artists/2-2.png'
+        src: '/static/images/artists/2-2.jpg'
       }, {
-        src: '/static/images/artists/2-3.png'
+        src: '/static/images/artists/2-3.jpg'
       }, {
-        src: '/static/images/artists/2-4.png'
+        src: '/static/images/artists/2-4.jpg'
+      }, {
+        src: '/static/images/artists/2-5.jpg'
       }]
     }, {
       title: 'Jen Lewin (ジェン・レウィン)<p>Brooklyn, NY</p>',
       body: 'ジェン・レウィンは、ニューヨーク・ブルックリンを基盤にして活動するニューメディア・アーティストでありインタラクティブ彫刻家として国際的にも有名な作家である。大規模のインタラクティブ作品には約20年間彼女が蓄積してきた建築学的な背景知識と先端媒介技術が盛り込まれている。彼女は美術展示の伝統的な方式から抜け出して、有機的かつ電子的な要素を活用して公の場に活力を吹き入れる経験を創造しようとする。このように誕生した彼女の作品にはアート、テクノロジー、コミュニティーが融合されており、その特有の生動感が観覧客を魅了する。<br>技術が融合されたジェン・レウィンの作品はこれまでイスタンブール・ライトフェスティバル、ビビッド・シドニー、アイ・ライト・マリーナベイ、シグナル・フェスティバル、 バーニング・マン、 コロラド・ デンバー・アートビエンナーレ、光州ビエンナーレなどに招待されており、米国全域を越えてメキシコ、ポルトガル、イギリスで彼女の個人展が開かれた。ジェン・レウィンは、MinneapolisのSide Walk Harp、Palo AltoのMagical Harp、コロラドのPromenade、Coral SpringsフロリダのAscentなど世界の多様な場所でインタラクティブ彫刻作品をデザインして設置した。また、ダイナミックな照明設計者としてペンシルバニア州フィラデルフィアではClaes Oldenburg作家と、コロラド州ベイルのLawrence Argentとの共同作業を通じて公共場所に永久的な作品を設置した。<br><br>Instagram @jenlewinstudio',
       iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/197936778" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
-        src: '/static/images/artists/3-1.png'
+        src: '/static/images/artists/3-1.jpg'
       }, {
-        src: '/static/images/artists/3-2.png'
+        src: '/static/images/artists/3-2.jpg'
       }, {
-        src: '/static/images/artists/3-3.png'
+        src: '/static/images/artists/3-3.jpg'
       }, {
-        src: '/static/images/artists/3-4.png'
+        src: '/static/images/artists/3-4.jpg'
       }, {
-        src: '/static/images/artists/3-5.png'
+        src: '/static/images/artists/3-5.jpg'
       }]
     }, {
       title: 'Jean “Jonny” Pigozzi(ジャン・ピコチ)<p>Paris, Antibes, London, New York, Geneva, and Panama</p>',
@@ -80,6 +88,10 @@ export default {
         src: '/static/images/artists/5-6.jpg'
       }, {
         src: '/static/images/artists/5-7.jpg'
+      }, {
+        src: '/static/images/artists/5-8.jpg'
+      }, {
+        src: '/static/images/artists/5-9.jpg'
       }]
     }, {
       title: 'Byungchan Lee (イ・ビョンチャン)<p>ソウル</p>',

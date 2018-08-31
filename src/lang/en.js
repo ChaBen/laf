@@ -7,49 +7,57 @@ export default {
       sliders: [{
         src: '/static/images/artists/1-1.png'
       }, {
-        src: '/static/images/artists/1-2.png'
+        src: '/static/images/artists/1-2.jpg'
       }, {
-        src: '/static/images/artists/1-3.png'
+        src: '/static/images/artists/1-3.jpg'
       }, {
-        src: '/static/images/artists/1-4.png'
+        src: '/static/images/artists/1-4.jpg'
       }, {
-        src: '/static/images/artists/1-5.png'
+        src: '/static/images/artists/1-5.jpg'
       }, {
-        src: '/static/images/artists/1-6.png'
+        src: '/static/images/artists/1-6.jpg'
       }, {
-        src: '/static/images/artists/1-7.png'
+        src: '/static/images/artists/1-7.jpg'
       }, {
-        src: '/static/images/artists/1-8.png'
+        src: '/static/images/artists/1-8.jpg'
       }, {
-        src: '/static/images/artists/1-9.png'
+        src: '/static/images/artists/1-9.jpg'
+      }, {
+        src: '/static/images/artists/1-10.jpg'
+      }, {
+        src: '/static/images/artists/1-11.jpg'
+      }, {
+        src: '/static/images/artists/1-12.jpg'
       }]
     }, {
       title: 'Tom Fruin<p>Brooklyn, NY</p>',
       body: 'Tom Fruin is a sculptor who was born and raised in Los Angeles, California. Fruin currently lives and works in Brooklyn, New York. The roots of Fruin’s professional artistic expression began upon his arrival in New York City in 1996 when he began to explore the concepts of community engagement, urban regeneration and development. He began creating works of art that represented specific neighborhoods; his earliest sculptural installations had the appearance of large quilts or flags fabricated from the detritus of the communities he was exploring.<br> In 2010 Fruin commenced work on the ICON series. This comprised monumental public sculptures of architectural types so familiar to city dwellers that they are frequently overlooked. By presenting everyday structures in a new way, Fruin created works that refocused attention back onto the original. The ICON series now comprises houses, water towers, windmills, artistic<br> signage, and other common and iconic structures, all of significant scale. The sculptures within the ICON series have become beacons for the communities in which they now live.<br> Fruin’s work has been included in numerous national and international exhibitions and is in significant public and private collections within the USA and abroad. Within New York City alone his public art installations are visible every day to the thousands of pedestrian, car, bike and subway commuters.<br><br> Instagram @tomfruin @intersectionartpartners',
       iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/LyTuRT0RkAs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
-        src: '/static/images/artists/2-1.png'
+        src: '/static/images/artists/2-1.jpg'
       }, {
-        src: '/static/images/artists/2-2.png'
+        src: '/static/images/artists/2-2.jpg'
       }, {
-        src: '/static/images/artists/2-3.png'
+        src: '/static/images/artists/2-3.jpg'
       }, {
-        src: '/static/images/artists/2-4.png'
+        src: '/static/images/artists/2-4.jpg'
+      }, {
+        src: '/static/images/artists/2-5.jpg'
       }]
     }, {
       title: 'Jen Lewin<p>Brooklyn, NY</p>',
       body: 'Jen Lewin is an internationally renowned new media artist and interactive sculptor based in Brooklyn, New York. Over her 20-year career, Lewin has honed her architectural background and a highly technical medium to fabricate large-scale interactive, sculptures made for public use. At once organic and electronic, Lewin thinks beyond traditional art exhibitions to create experiences that bring vibrancy to public spaces. Lewin’s playful sculptures exist where art, technology, and communities meet and leave viewers enchanted.<br><br> Lewin’s technically complex works have been featured at events including the Istanbul Light Festival, Vivid Sydney, iLight Marina Bay, Signal Fest and Burning Man, art Biennales in Denver, Colorado and Gwangju, South Korea and solo exhibitions across the United States and in Mexico, Portugal, and England. Jen Lewin has designed and installed permanent public interactive sculptures worldwide including the Side Walk Harp in Minneapolis, Magical Harp in Palo Alto, Promenade in Denver Colorado, Ascent in Coral Springs Florida and has worked in collaboration as a dynamic lighting designer for permanent, public installations with Claes Oldenburg in Philadelphia, Pennsylvania and Lawrence Argent in Vail, Colorado.<br><br> Instagram @jenlewinstudio',
       iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/197936778" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
-        src: '/static/images/artists/3-1.png'
+        src: '/static/images/artists/3-1.jpg'
       }, {
-        src: '/static/images/artists/3-2.png'
+        src: '/static/images/artists/3-2.jpg'
       }, {
-        src: '/static/images/artists/3-3.png'
+        src: '/static/images/artists/3-3.jpg'
       }, {
-        src: '/static/images/artists/3-4.png'
+        src: '/static/images/artists/3-4.jpg'
       }, {
-        src: '/static/images/artists/3-5.png'
+        src: '/static/images/artists/3-5.jpg'
       }]
     }, {
       title: 'Jean “Jonny” Pigozzi<p>Paris, Antibes, London, New York, Geneva, and Panama</p>',
@@ -80,6 +88,10 @@ export default {
         src: '/static/images/artists/5-6.jpg'
       }, {
         src: '/static/images/artists/5-7.jpg'
+      }, {
+        src: '/static/images/artists/5-8.jpg'
+      }, {
+        src: '/static/images/artists/5-9.jpg'
       }]
     }, {
       title: 'Byungchan Lee<p>Seoul, South Korea</p>',

@@ -5,51 +5,59 @@ export default {
       body: '브루스 먼로(Bruce Munro)는 수천 개에 달하는 조명 부품을 활용한 대규모 몰입형 설치 작업으로 유명해진 영국 작가이다. 그는 30년이 넘는 오랜 세월 동안, 떠오르는 영감과 이미지들을 그의 스케치북에 수집하고 기록하며, 그것들을 작업의 원천으로 삼아왔다.<br><br>그의 작업은 언어, 문학, 과학, 음악과도 긴밀한 관계를 맺는다. 거기엔 주로 세상과 관계를 맺는 찰나의 순간과 필수적인 삶의 패턴을 앞에 두고 가장 큰 의미에서의 존재에 대한 개인적인 경험이 담겨있다. 특히 빛이라는 모티브를 자연의 규모로 풀어내 관람자에게 정서적인 반응을 끌어낸다.<br><br>브루스는 1982년 브리스틀에서 미술 학위를 받고 곧장 시드니로 건너가 디자인과 조명을 연구하며, 호주의 자연적인 빛과 풍광에 깊은 인상을 받았다. 이후 그는 1992년에 다시 영국으로 돌아와 그의 아내 Serena와 4명의 자녀와 함께 Wiltshire에 정착하였다.<br><br>그동안 브루스의 작품은 펜실베니아 주의 롱우드 가든(Longwood Gardens), 런던의 빅토리아 앤 알버트 박물관(The Victoria & Albert Museum), 버킹엄셔 소재 로스차일드가의 웨더스던 저택(Waddesdon Manor for the Rothschild Collection), 차스워스 하우스(Chatsworth House)’에서 개최된 소더비의 비욘드 리미츠 2016 등 전 세계의 유명 박물관과 식물원에 전시되었다. 그의 대표작 ‘필드 오브 라이트(Field of Light)’는 2018년 3월까지 호주 울룰루(Uluru)에서 전시되었으며, 가장 최근에는 2018년 9월 옥스포드셔 소재 Bicester Shopping Village에 전시될 영구적인 공공설치작품 ‘Moon Blooms’을 제작하였다. 그의 작업은 치크우드 가든 앤 미술관(Cheekwood Garden and Art Museum), 옥스퍼드의 Ashmolean 박물관 등 전세계의 유수한 박물관에 전시되고 있다.',
       iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/rZYXP_EOsuc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
-        src: '/static/images/artists/1-1.png'
+        src: '/static/images/visit/1-1.png'
       }, {
-        src: '/static/images/artists/1-2.png'
+        src: '/static/images/visit/1-2.jpg'
       }, {
-        src: '/static/images/artists/1-3.png'
+        src: '/static/images/visit/1-3.jpg'
       }, {
-        src: '/static/images/artists/1-4.png'
+        src: '/static/images/visit/1-4.jpg'
       }, {
-        src: '/static/images/artists/1-5.png'
+        src: '/static/images/visit/1-5.jpg'
       }, {
-        src: '/static/images/artists/1-6.png'
+        src: '/static/images/visit/1-6.jpg'
       }, {
-        src: '/static/images/artists/1-7.png'
+        src: '/static/images/visit/1-7.jpg'
       }, {
-        src: '/static/images/artists/1-8.png'
+        src: '/static/images/visit/1-8.jpg'
       }, {
-        src: '/static/images/artists/1-9.png'
+        src: '/static/images/visit/1-9.jpg'
+      }, {
+        src: '/static/images/visit/1-10.jpg'
+      }, {
+        src: '/static/images/visit/1-11.jpg'
+      }, {
+        src: '/static/images/visit/1-12.jpg'
       }]
     }, {
       title: '톰 프루인<p>브루클린, 뉴욕</p>',
       body: '조각가인 톰 프루인(Tom Fruin)은 캘리포니아주 로스앤젤레스에서 태어났으며, 현재는 뉴욕 브루클린에 살고 있다. 그의 예술적 표현의 뿌리는 그가 처음 1996년 뉴욕에 입성하여 지역 사회, 도시 재생 및 개발에 대한 개념을 탐구하면서부터 시작되었다. 그의 초기 작품에는 주로 특정 지역의 모습이 담겨있는데, 그가 탐구했던 지역에서 발생한 잔재물을 이용해 제작한 커다란 ‘퀼트’ 또는 ‘깃발’ 형태들이 그 예라고 할 수 있다.<br><br>2010년부터 그는 자신의 대표작 ‘ICON’ 시리즈를 발표하였다. 이 시리즈는 평소 사람들이 쉽게 지나칠 수 있는 도시의 건축 양식들을 기념비적인 공공조각물로 재탄생시켰다. 일상적인 구조물을 새로운 방식으로 제시함으로써, 그는 오히려 작품의 원래 모습으로 다시 집중시키려는 의도를 표현하고자 했다. 현재 ICON 시리즈는 집, 급수탑, 풍자, 예술적 간판 등 평범하지만, 상징적인 구조물로 구성되어 있다. 이러한 작품들은 해당 지역 사회의 표지물이 되었다.<br><br>그의 작품은 미국을 넘어 국제적으로 수많은 전시회에 초청되어왔다. 뉴욕시 내에서만 매일같이 수천 명의 통근자가 그의 공공 미술 설치작품을 접하고 있다.<br><br>Instagram @tomfruin @intersectionartpartners',
       iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/LyTuRT0RkAs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
-        src: '/static/images/artists/2-1.png'
+        src: '/static/images/artists/2-1.jpg'
       }, {
-        src: '/static/images/artists/2-2.png'
+        src: '/static/images/artists/2-2.jpg'
       }, {
-        src: '/static/images/artists/2-3.png'
+        src: '/static/images/artists/2-3.jpg'
       }, {
-        src: '/static/images/artists/2-4.png'
+        src: '/static/images/artists/2-4.jpg'
+      }, {
+        src: '/static/images/artists/2-5.jpg'
       }]
     }, {
       title: '젠 르원<p>브루클린, 뉴욕</p>',
       body: '젠 르윈(Jen Lewin)은 뉴욕 브루클린 기반으로 활동하는 뉴미디어 아티스트이자 인터랙티브 조각가로서 국제적으로도 아주 유명한 작가이다. 대규모 인터랙티브 작품에는 20여 년간 그녀가 축적해온 건축학적인 배경지식과 첨단 매개 기술이 담겨있는 것을 볼 수 있다. 그녀는 미술품 전시의 전통적인 방식을 탈피해, 유기적이면서도 전자적인 여러 요소를 활용하여, 공적인 장소에 활력을 불어넣는 경험을 창조하고자 한다. 이렇게 탄생한 그녀의 작품에는 아트, 테크놀로지, 커뮤니티가 서로 융합되어 있으며, 그 특유의 생동감은 관람객을 사로잡는다.<br><br> 기술이 융합된 그녀의 작품은 그동안 이스탄불 라이트 페스티벌, 비비드 시드니, 아이라이트마리나 베이, 시그널 페스트, 버닝맨, 콜로라도 덴버 아트 비엔날레, 광주 비엔날레 등에 초청되었으며, 미국 전역을 넘어 멕시코, 포르투갈, 영국에서 그녀의 개인전이 열리기도 했다. 지속적인 활동으로 그녀는 Minneapolis의 Side Walk Harp, Palo Alto의 Magical Harp, 콜로라도의 Promenade, Coral Springs 플로리다의 Ascent 등 전 세계 다양한 장소에서 인터랙티브 조각 작품을 디자인하고 설치했다. 또한, 그녀는 다이나믹한 조명설계자로서, 펜실베이니아주 필라델피아에서 Claes Oldenburg 작가와, 콜로라도주 바일의 Lawrence Argent와의 공동 작업을 통해 공공장소에 영구적인 작품을 설치하였다.<br><br> Instagram @jenlewinstudio',
       iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/197936778" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
-        src: '/static/images/artists/3-1.png'
+        src: '/static/images/artists/3-1.jpg'
       }, {
-        src: '/static/images/artists/3-2.png'
+        src: '/static/images/artists/3-2.jpg'
       }, {
-        src: '/static/images/artists/3-3.png'
+        src: '/static/images/artists/3-3.jpg'
       }, {
-        src: '/static/images/artists/3-4.png'
+        src: '/static/images/artists/3-4.jpg'
       }, {
-        src: '/static/images/artists/3-5.png'
+        src: '/static/images/artists/3-5.jpg'
       }]
     }, {
       title: '장 피고치<p>파리, 안티베스, 뉴욕, 제네바</p>',
@@ -80,6 +88,10 @@ export default {
         src: '/static/images/artists/5-6.jpg'
       }, {
         src: '/static/images/artists/5-7.jpg'
+      }, {
+        src: '/static/images/artists/5-8.jpg'
+      }, {
+        src: '/static/images/artists/5-9.jpg'
       }]
     }, {
       title: '이병찬<p>서울</p>',
