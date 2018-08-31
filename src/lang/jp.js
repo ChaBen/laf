@@ -47,7 +47,7 @@ export default {
     }, {
       title: 'Jen Lewin (ジェン・レウィン)<p>Brooklyn, NY</p>',
       body: 'ジェン・レウィンは、ニューヨーク・ブルックリンを基盤にして活動するニューメディア・アーティストでありインタラクティブ彫刻家として国際的にも有名な作家である。大規模のインタラクティブ作品には約20年間彼女が蓄積してきた建築学的な背景知識と先端媒介技術が盛り込まれている。彼女は美術展示の伝統的な方式から抜け出して、有機的かつ電子的な要素を活用して公の場に活力を吹き入れる経験を創造しようとする。このように誕生した彼女の作品にはアート、テクノロジー、コミュニティーが融合されており、その特有の生動感が観覧客を魅了する。<br>技術が融合されたジェン・レウィンの作品はこれまでイスタンブール・ライトフェスティバル、ビビッド・シドニー、アイ・ライト・マリーナベイ、シグナル・フェスティバル、 バーニング・マン、 コロラド・ デンバー・アートビエンナーレ、光州ビエンナーレなどに招待されており、米国全域を越えてメキシコ、ポルトガル、イギリスで彼女の個人展が開かれた。ジェン・レウィンは、MinneapolisのSide Walk Harp、Palo AltoのMagical Harp、コロラドのPromenade、Coral SpringsフロリダのAscentなど世界の多様な場所でインタラクティブ彫刻作品をデザインして設置した。また、ダイナミックな照明設計者としてペンシルバニア州フィラデルフィアではClaes Oldenburg作家と、コロラド州ベイルのLawrence Argentとの共同作業を通じて公共場所に永久的な作品を設置した。<br><br>Instagram @jenlewinstudio',
-      iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/197936778" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+      iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/UD1Fh_sZQgU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/3-1.jpg'
       }, {
@@ -94,7 +94,7 @@ export default {
     }, {
       title: 'Byungchan Lee (イ・ビョンチャン)<p>ソウル</p>',
       body: 'イ・ビョンチャンはソウルをベースに活動するアーティストとして、カラフルな色味とユニークな形を持った大型「キネティック・インスタレーション」を国際的に披露し注目されている。彼が大学時代に目撃した現代社会の構造は、矛盾でありながら、非正常的なものであった。「都市という巨大な有機体を動かすものは何か？」という悩みの末にたどり着いた彼の答えは「消費生態系」であった。これは彼の作品の主なモチーフとなり、自然界とは異なり、都市社会での消費行動を視覚的に表現する。現代社会では、消費と浪費を象徴する普遍的素材であるビニール、アルミホイルと、刺激的でダイナミックな都市色彩を含んだ光と音を利用して、第3の生命体（Urban Creatures）を作り出した。彼は2010年、AGギャラリーで披露した初個展を出発点として、最近は「平昌ビエンナーレ＆江陵シン(楽)ナーレ2017」と2018ミラノデザインウィークに参加するなど、旺盛な活動をしている。',
-      iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/83UdU2VwvMg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+      iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/DOH3UREzQdY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/6-1.jpg'
       }, {

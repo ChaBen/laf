@@ -47,7 +47,7 @@ export default {
     }, {
       title: 'Jen Lewin<p>Brooklyn, NY</p>',
       body: 'Jen Lewin is an internationally renowned new media artist and interactive sculptor based in Brooklyn, New York. Over her 20-year career, Lewin has honed her architectural background and a highly technical medium to fabricate large-scale interactive, sculptures made for public use. At once organic and electronic, Lewin thinks beyond traditional art exhibitions to create experiences that bring vibrancy to public spaces. Lewin’s playful sculptures exist where art, technology, and communities meet and leave viewers enchanted.<br><br> Lewin’s technically complex works have been featured at events including the Istanbul Light Festival, Vivid Sydney, iLight Marina Bay, Signal Fest and Burning Man, art Biennales in Denver, Colorado and Gwangju, South Korea and solo exhibitions across the United States and in Mexico, Portugal, and England. Jen Lewin has designed and installed permanent public interactive sculptures worldwide including the Side Walk Harp in Minneapolis, Magical Harp in Palo Alto, Promenade in Denver Colorado, Ascent in Coral Springs Florida and has worked in collaboration as a dynamic lighting designer for permanent, public installations with Claes Oldenburg in Philadelphia, Pennsylvania and Lawrence Argent in Vail, Colorado.<br><br> Instagram @jenlewinstudio',
-      iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/197936778" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+      iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/UD1Fh_sZQgU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/3-1.jpg'
       }, {
@@ -94,7 +94,7 @@ export default {
     }, {
       title: 'Byungchan Lee<p>Seoul, South Korea</p>',
       body: 'Bungchan Lee is an artist based out of Seoul that has exhibited his colorful and unique large scale "kinetic installations" around the world and is receiving acclaim internationally. The modern social structure that he witnessed while in college was contradictory and irregular. "After pondering about what powers the large organism that is a city, he concluded that a city is an "ecosystem of consumption." This has become the main motif of his work. Unlike natural ecosystems, a city\'s society has consumption activity, which he expresses visually. The consumption and waste in modern society is represented by plastic, together with foil, light and sounds include the stimulating and active city colors, which are used to create "urban creatures." Starting with his first personal exhibition in 2010 at the AG gallery, he is very active in his art as his work has recently been displayed at the 2017 Pyeongchang Biennale & Gangneung Folk Art Festival, and 2018 Milano Design Week.',
-      iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/83UdU2VwvMg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+      iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/DOH3UREzQdY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/6-1.jpg'
       }, {

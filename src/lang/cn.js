@@ -47,7 +47,7 @@ export default {
     }, {
       title: 'Jen Lewin (仁勒温)<p>Brooklyn, NY</p>',
       body: '仁勒温是主要在纽约布鲁克林活动的新媒体艺术互动雕塑家，也是国际知名作家。大规模互动作品凝聚了积累20多年她的建筑学背景知识和尖端媒体技术。她摆脱了美术展览的传统方式，有机地应用电子因素为营造富有活力的公共场所进行了创意尝试。如此这般诞生的作品融合了艺术、科技、社区，用其特有的生动感吸引着观众。<br>仁勒温其融入技术的产品被邀请到伊斯坦布尔灯光节 light festival，雪梨灯光艺术节(Vivid Sydney Festival) ，照亮滨海湾灯光艺术节（Light Marina Bay Festival），闪光佳节（signal festival），火把节（ Burning Man Festival），科罗拉多丹佛艺术双年展，光州双年展等。不仅如此，她还飞越美国在墨西哥，葡萄牙，英国举办了个人展。Jen Lewin在 Minneapolis的 Side Walk Harp, Palo Alto的 Magical Harp，科罗拉多的Promenade, Coral Springs，弗罗里达的 Ascent等世界各地设计并安装了互动雕塑作品。此外，她作为一个动感的照明设计师在宾夕法尼亚费城与Claes Oldenburg作家，与科罗拉多州范尔的Lawrence Argent一起作业在公共场所安装了永久性作品。<br><br>Instagram @jenlewinstudio',
-      iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/197936778" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+      iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/UD1Fh_sZQgU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/3-1.jpg'
       }, {
@@ -94,7 +94,7 @@ export default {
     }, {
       title: 'Byungchan Lee (李秉赞)<p>首尔</p>',
       body: '李秉赞作为以首尔为根据地活动的艺术家，在国际上展示了拥有华丽色彩和独特形态的大型"动力学装置"，因而备受瞩目。他在大学时期目睹的现代社会的结构是既矛盾又非正常的。“让城市这个巨大的有机体移动的是什么呢”？经过一番思考后，他的答案是"消费生态系"，而消费生态系成为了他作品的主旋律，他以视觉方式表现出与自然界不同的城市社会的消费行为。以象征着现代社会的消费和浪费的普遍素材--塑料、银箔纸为基础，利用带有刺激和动感的城市色调的灯光和声音，打造出了第三生命体(Urban Creatures)。李秉赞以2010年在AG画廊推出的首次个人展为起点，最近参加了《平昌双年展及江陵国际民俗艺术节》以及《2018年米兰设计周》等，开展着旺盛的活动。',
-      iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/83UdU2VwvMg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+      iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/DOH3UREzQdY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/6-1.jpg'
       }, {

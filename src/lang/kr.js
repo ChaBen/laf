@@ -47,7 +47,7 @@ export default {
     }, {
       title: '젠 르원<p>브루클린, 뉴욕</p>',
       body: '젠 르윈(Jen Lewin)은 뉴욕 브루클린 기반으로 활동하는 뉴미디어 아티스트이자 인터랙티브 조각가로서 국제적으로도 아주 유명한 작가이다. 대규모 인터랙티브 작품에는 20여 년간 그녀가 축적해온 건축학적인 배경지식과 첨단 매개 기술이 담겨있는 것을 볼 수 있다. 그녀는 미술품 전시의 전통적인 방식을 탈피해, 유기적이면서도 전자적인 여러 요소를 활용하여, 공적인 장소에 활력을 불어넣는 경험을 창조하고자 한다. 이렇게 탄생한 그녀의 작품에는 아트, 테크놀로지, 커뮤니티가 서로 융합되어 있으며, 그 특유의 생동감은 관람객을 사로잡는다.<br><br> 기술이 융합된 그녀의 작품은 그동안 이스탄불 라이트 페스티벌, 비비드 시드니, 아이라이트마리나 베이, 시그널 페스트, 버닝맨, 콜로라도 덴버 아트 비엔날레, 광주 비엔날레 등에 초청되었으며, 미국 전역을 넘어 멕시코, 포르투갈, 영국에서 그녀의 개인전이 열리기도 했다. 지속적인 활동으로 그녀는 Minneapolis의 Side Walk Harp, Palo Alto의 Magical Harp, 콜로라도의 Promenade, Coral Springs 플로리다의 Ascent 등 전 세계 다양한 장소에서 인터랙티브 조각 작품을 디자인하고 설치했다. 또한, 그녀는 다이나믹한 조명설계자로서, 펜실베이니아주 필라델피아에서 Claes Oldenburg 작가와, 콜로라도주 바일의 Lawrence Argent와의 공동 작업을 통해 공공장소에 영구적인 작품을 설치하였다.<br><br> Instagram @jenlewinstudio',
-      iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/197936778" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+      iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/UD1Fh_sZQgU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/3-1.jpg'
       }, {
@@ -71,7 +71,7 @@ export default {
     }, {
       title: '제이스 크루그먼<p>브루클린, 뉴욕</p>',
       body: '제이슨 크루그먼(Jason Krugman)은 Tufts University에 다니면서 Economics and Fine Arts를 공부했다. 졸업 후, 그는 훌륭한 예술가로서의 경력을 꿈꾸기보다는 경제와 금융 분야에 집중했다. 그는 골드만삭스(Goldman Sachs)와 메릴린치(Merrill Lynch) 등 금융회사에 근무하며 미국 발 금융 위기 직전까지 신용 거래를 담당하였다.<br><br> 2007년 초, 다가오는 재앙에 대해 전혀 눈치채지 못했던 그는, 다시 학교로 돌아와 관심 있었던 기술과 예술을 공부했다. 학업 중 인터랙티브 아트가 만들어지는 과정을 접하며, 이때 전기 및 커넥터 사용량이 급증하는 것을 인상 깊게 본 그는, NYU의 Interactive Telecommunications Program (ITP)에 다니며 마이크로 컨트롤러, 납땜, 디지털 제작 및 신소재에 관해 탐구하였다. ITP에서 그의 논문 주제는 ‘바람에 민감한 LED 배열’이었다. 이 논문이 카니예 웨스트(Kanye West)에 의해 블로깅 된 것이 발단되어 대형 뮤직 페스티벌 기획사로부터 더 크고 휴대성이 강한 버전을 제작해달라는 상업적인 의뢰를 처음으로 받게 되었다.<br><br> 이후 많은 사람이 그에게 대형 빌딩과 주택에 설치될 영구적인 LED 작품을 의뢰하였다. 현재, 크루그먼은 새로운 형태의 LED 작품 디자인과 제작에 몰두하고 있다. 이를 위해 수작업으로 납땜한 LED 메쉬, 복잡한 케이블 시스템 및 다양한 LED 맞춤형 인쇄 회로 기판을 개발하였다. 특히 그는 3차원 공간에 전기와 조명을 배열하는 작업을 주로 한다. 그의 작품은 광원에 전기를 공급하기 위해 물리적인 구조를 사용하기도 한다. 이러한 방법으로 절연 전선 및 커넥터 없이도 수천 개의 조명을 최소한의 전선 형태로 부드럽게 배치할 수 있게 된다.<br><br> Instagram @jasonkrugman',
-      iframe: '<iframe src="https://player.vimeo.com/video/167614688" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+      iframe: '<iframe src="https://www.youtube.com/embed/167614688" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/5-1.jpg'
       }, {
@@ -94,7 +94,7 @@ export default {
     }, {
       title: '이병찬<p>서울</p>',
       body: '이병찬은 서울을 기반으로 활동하는 아티스트로서, 화려한 색감과 독특한 형태를 지닌 대형 ‘키네틱 인스톨레이션’을 국제적으로 선보이며 주목받고 있다. 그가 대학 시절 목격한 현대 사회의 구조는 모순적이면서도 비정상적이었다. ‘도시라는 거대 유기체를 움직이게 하는 것은 무엇인가?’라는 고민 끝에 찾은 그의 답은 ‘소비 생태계’였다. 이는 그의 작품의 주요 모티브가 되었으며, 자연계와 달리 도시 사회에서의 소비 행동을 시각적으로 표현한다. 현대사회에서 소비와 낭비를 상징하는 보편적 소재인 비닐, 은박지와 함께 자극적이고 역동적인 도시의 색을 담은 빛과 소리를 이용해 제3의 생명체(Urban Creatures)를 만들어냈다. 그는 2010년 AG 갤러리에서 선보인 첫 개인전을 시작점으로, 최근에는 <평창 비엔날레&강릉 신날레 2017>과 2018 밀라노 디자인 위크에 참가하는 등 왕성한 활동을 하고 있다.',
-      iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/83UdU2VwvMg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+      iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/DOH3UREzQdY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/6-1.jpg'
       }, {
