@@ -969,7 +969,11 @@ body.tickets .vendor-list { clear: both; }
 .social { margin-left: 10px; }
 .faq-list blockquote { margin-top: 10px; }
 .limolimo .slick-slider { margin-top: 0; border: 0; }
+.normal .slick-slider { margin-top: 0; border: 0; }
 .wrap .view-more { display: flex; flex-direction: row; justify-content: space-between; }
 .wrap .view-more p { display: flex; margin-top: 1em; }
 .funjoy .slick-slider { margin-top: 0; border-top: 0; }
 .tags li { margin-bottom: 20px; }
+.back { display: inline-block; line-height: 50px; font-size: 50px; }
+/* .slick-list, .slick-track, .slick-slide { height:100% !important; }
+.slick-slide > div { height:100%; } */

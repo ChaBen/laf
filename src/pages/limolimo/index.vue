@@ -18,7 +18,7 @@
         <div class="slick-list">
           <div class="slideshow-item slick-slide" v-for="(slide, key) in $t('limolimo.sliders')" :key="key">
             <div class="slideshow-image">
-              <img :src="slide.src" alt="">
+              <img-load :src="slide.src"></img-load>
             </div>
             <div class="project-section-text" v-html="slide.title"></div>
           </div>
@@ -31,15 +31,17 @@
 <script>
 import HeaderComponent from '@/pages/components/common/header';
 import AsideComponent from '@/pages/components/common/aside';
+import ImgLoad from '@/pages/components/tag/img-load';
+
 export default {
-  components: { HeaderComponent, AsideComponent },
+  components: { HeaderComponent, AsideComponent, ImgLoad },
   mounted() {
-    setTimeout(() => {
+    this.$nextTick(function() {
       $('.slick-list').slick({
         dots: true,
         adaptiveHeight: true
       });
-    }, 100);
+    });
   }
 }
 </script>

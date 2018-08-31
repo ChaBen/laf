@@ -3,7 +3,7 @@
     <header-component></header-component>
     <aside-component></aside-component>
 
-    <main>
+    <main class="normal">
       <section class="section bodyText" v-html="$t('visit.addr')"></section>
       <section class="section bodyText map">
         <div class="map-canvas" style="height: 50vh; min-height: 400px;"></div>
@@ -29,12 +29,12 @@ export default {
   components: { HeaderComponent, AsideComponent },
   mounted() {
     this.map();
-    setTimeout(() => {
+    this.$nextTick(function() {
       $('.slider').slick({
         dots: true,
         adaptiveHeight: true
       });
-    }, 100);
+    });
   },
   methods: {
     map() {

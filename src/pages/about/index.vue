@@ -19,7 +19,7 @@
       <section class="sliders">
         <div class="sliders">
           <div class="slider">
-            <div class="slide" v-for="(slide, key) in about.sliders" :key="key"><img :src="slide.src" /></div>
+            <div class="slide" v-for="(slide, key) in about.sliders" :key="key"><img-load :src="slide.src"></img-load></div>
           </div>
         </div>
       </section>
@@ -37,9 +37,10 @@
 import HeaderComponent from '@/pages/components/common/header';
 import AsideComponent from '@/pages/components/common/aside';
 import FooterComponent from '@/pages/components/common/footer';
+import ImgLoad from '@/pages/components/tag/img-load';
 
 export default {
-  components: { HeaderComponent, AsideComponent, FooterComponent },
+  components: { HeaderComponent, AsideComponent, FooterComponent, ImgLoad },
   data() {
     return {
       actived: true
@@ -51,12 +52,12 @@ export default {
     }
   },
   mounted() {
-    setTimeout(() => {
+    this.$nextTick(function() {
       $('.slider').slick({
         dots: true,
         adaptiveHeight: true
       });
-    }, 100);
+    });
   }
 }
 </script>

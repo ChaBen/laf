@@ -56,8 +56,6 @@ export default {
         src: '/static/images/artists/3-3.jpg'
       }, {
         src: '/static/images/artists/3-4.jpg'
-      }, {
-        src: '/static/images/artists/3-5.jpg'
       }]
     }, {
       title: 'Jean “Jonny” Pigozzi<p>Paris, Antibes, London, New York, Geneva, and Panama</p>',
@@ -114,7 +112,7 @@ export default {
     lafs: 'About LAF LIGHT ART FESTA (LAF) is an art festival for immersive installations, sculptures, and event-based works that explore a transformative, curiously affecting medium: Light. Each one-year…',
     laf: '<div class="inner"> <h1>About LAF</h1> <p>LIGHT ART FESTA (LAF) is an art festival for immersive installations, sculptures, and event-based works that explore a transformative, curiously affecting medium: Light. Each one-year cycle, LAF activates the enchanting Jeju island’s former tea field as an open-air nighttime exhibition platform. The collection of works at LAF celebrate both light and darkness.</p> <p>The night sky makes it possible for us to see the stars; negative and positive poles need each other to exist; darkness allows light and movement to join with and enhance the tranquil beauty and powerful life force of Jeju Island.</p> <p>For its inaugural 2018 edition, artist Bruce Munro presents large-scale installation and sculptural pieces that deal with the shared human experience as well as connectedness to the natural landscape: In particular, Munro responds to the volcanic mounds and harsh island wind typical of Jeju. With the artist’s long-held inspiration from the potent energy of the Australian desert at dusk, and also from locations throughout North America and the UK where iterations of his work have taken stage, the light works express the joy and awe such open lands and skies evoke.</p> <p>They are intensified by the fleeting, seemingly non-physical, nearly spiritual quality of light; it invites the viewers to embrace sensory experience, feeling, wonderment, as if walking through an alternate dimension, more so than merely glancing at the objects.</p> <p>As well, artists Jen Lewin, Tom Fruin, and Jason Krugman react to, amplify, and transform the nineteen-acre exhibition site. Situated within it is the Cave, a fantastical indoor space that hosts Jean Pigozzi’s “LimoLand,” an ambitious site-specific work, alongside installations by Byungchan Lee and Jason Krugman. In “LimoLimo,” the visitor meets anthropomorphic creatures that populate the Cave, an exciting new world which feels strangely familiar.</p> <p>First of its kind in Asia, LAF invites a wide range of works from internationally renowned artists to help create accessible, safe, and inspiring spaces to spend the evening hours.</p>  </div>',
     sliders: [{
-      src: '/static/images/about/1-1.jpg'
+      src: '/static/images/about/1-1.png'
     }, {
       src: '/static/images/about/1-2.png'
     }, {

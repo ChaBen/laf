@@ -5,29 +5,29 @@ export default {
       body: '브루스 먼로(Bruce Munro)는 수천 개에 달하는 조명 부품을 활용한 대규모 몰입형 설치 작업으로 유명해진 영국 작가이다. 그는 30년이 넘는 오랜 세월 동안, 떠오르는 영감과 이미지들을 그의 스케치북에 수집하고 기록하며, 그것들을 작업의 원천으로 삼아왔다.<br><br>그의 작업은 언어, 문학, 과학, 음악과도 긴밀한 관계를 맺는다. 거기엔 주로 세상과 관계를 맺는 찰나의 순간과 필수적인 삶의 패턴을 앞에 두고 가장 큰 의미에서의 존재에 대한 개인적인 경험이 담겨있다. 특히 빛이라는 모티브를 자연의 규모로 풀어내 관람자에게 정서적인 반응을 끌어낸다.<br><br>브루스는 1982년 브리스틀에서 미술 학위를 받고 곧장 시드니로 건너가 디자인과 조명을 연구하며, 호주의 자연적인 빛과 풍광에 깊은 인상을 받았다. 이후 그는 1992년에 다시 영국으로 돌아와 그의 아내 Serena와 4명의 자녀와 함께 Wiltshire에 정착하였다.<br><br>그동안 브루스의 작품은 펜실베니아 주의 롱우드 가든(Longwood Gardens), 런던의 빅토리아 앤 알버트 박물관(The Victoria & Albert Museum), 버킹엄셔 소재 로스차일드가의 웨더스던 저택(Waddesdon Manor for the Rothschild Collection), 차스워스 하우스(Chatsworth House)’에서 개최된 소더비의 비욘드 리미츠 2016 등 전 세계의 유명 박물관과 식물원에 전시되었다. 그의 대표작 ‘필드 오브 라이트(Field of Light)’는 2018년 3월까지 호주 울룰루(Uluru)에서 전시되었으며, 가장 최근에는 2018년 9월 옥스포드셔 소재 Bicester Shopping Village에 전시될 영구적인 공공설치작품 ‘Moon Blooms’을 제작하였다. 그의 작업은 치크우드 가든 앤 미술관(Cheekwood Garden and Art Museum), 옥스퍼드의 Ashmolean 박물관 등 전세계의 유수한 박물관에 전시되고 있다.',
       iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/rZYXP_EOsuc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
       sliders: [{
-        src: '/static/images/visit/1-1.png'
+        src: '/static/images/artists/1-1.png'
       }, {
-        src: '/static/images/visit/1-2.jpg'
+        src: '/static/images/artists/1-2.jpg'
       }, {
-        src: '/static/images/visit/1-3.jpg'
+        src: '/static/images/artists/1-3.jpg'
       }, {
-        src: '/static/images/visit/1-4.jpg'
+        src: '/static/images/artists/1-4.jpg'
       }, {
-        src: '/static/images/visit/1-5.jpg'
+        src: '/static/images/artists/1-5.jpg'
       }, {
-        src: '/static/images/visit/1-6.jpg'
+        src: '/static/images/artists/1-6.jpg'
       }, {
-        src: '/static/images/visit/1-7.jpg'
+        src: '/static/images/artists/1-7.jpg'
       }, {
-        src: '/static/images/visit/1-8.jpg'
+        src: '/static/images/artists/1-8.jpg'
       }, {
-        src: '/static/images/visit/1-9.jpg'
+        src: '/static/images/artists/1-9.jpg'
       }, {
-        src: '/static/images/visit/1-10.jpg'
+        src: '/static/images/artists/1-10.jpg'
       }, {
-        src: '/static/images/visit/1-11.jpg'
+        src: '/static/images/artists/1-11.jpg'
       }, {
-        src: '/static/images/visit/1-12.jpg'
+        src: '/static/images/artists/1-12.jpg'
       }]
     }, {
       title: '톰 프루인<p>브루클린, 뉴욕</p>',
@@ -56,8 +56,6 @@ export default {
         src: '/static/images/artists/3-3.jpg'
       }, {
         src: '/static/images/artists/3-4.jpg'
-      }, {
-        src: '/static/images/artists/3-5.jpg'
       }]
     }, {
       title: '장 피고치<p>파리, 안티베스, 뉴욕, 제네바</p>',
@@ -114,7 +112,7 @@ export default {
     lafs: 'About LAF \'제주 라이트 아트 페스타(제주 LAF)\'는 Light(빛)를 매개로 한 세계적인 예술작품들을 선보이는 아트 페스티벌입니다. 매개체로서의 Light(빛)는 밝기와 색채 등 그 형태가 주는 무궁무진함으로 인해 신비롭고 환상적이며 때로는 경외감을 주고 우리의 상상력을 자극합니다. 제주 LAF는 이 Light(빛)를 통하여 기존의 평온하기만 했던 녹차 밭을 매혹적인 야외 전시공간으로 완벽히 재탄생 시켰습니다. 제주 LAF가 소개하는 작품들은 빛과 어둠의 상생, 상충을 통한 조화와 반전을 보여줍니다. 빛과 어둠의 상생은 선과 악이 서로의 존재 자체로 주목되고, 반짝이는 별은 어두운 밤하늘 속에서만 빛날 수 있음을 통해 떠올려볼 수 있습니다. 그동안 우리가 주목하지 않았던 제주의 깊은 어둠 속에 피어날 빛과 움직임은, 고요하고 평온하기만 한 제주의 밤에 생기…',
     laf: '<div class="inner"> <h1>About LAF</h1> <p>\'제주 라이트 아트 페스타(제주 LAF)\'는 Light(빛)를 매개로 한 세계적인 예술작품들을 선보이는 아트 페스티벌입니다. 매개체로서의 Light(빛)는 밝기와 색채 등 그 형태가 주는 무궁무진함으로 인해 신비롭고 환상적이며 때로는 경외감을 주고 우리의 상상력을 자극합니다. 제주 LAF는 이 Light(빛)를 통하여 기존의 평온하기만 했던 녹차 밭을 매혹적인 야외 전시공간으로 완벽히 재탄생 시켰습니다. 제주 LAF가 소개하는 작품들은 빛과 어둠의 상생, 상충을 통한 조화와 반전을 보여줍니다. 빛과 어둠의 상생은 선과 악이 서로의 존재 자체로 주목되고, 반짝이는 별은 어두운 밤하늘 속에서만 빛날 수 있음을 통해 떠올려볼 수 있습니다. 그동안 우리가 주목하지 않았던 제주의 깊은 어둠 속에 피어날 빛과 움직임은, 고요하고 평온하기만 한 제주의 밤에 생기를 더하고, 우리는 그 속에서 새로운 경험을 할 수 있게 됩니다.</p> <p>세계적인 아티스트 \'브루스 먼로(Bruce Munro)\'의 작품이 2018년 제주 LAF의 화려한 첫 개막을 위해 대표 전시로 찾아옵니다. 그의 작품은 인간과 자연의 연결, 더 나아가 그 연결을 공유하는 경험을 다루는 대규모 설치/조형 작품입니다. 특히 이번 전시에서 그가 소개하는 작품에는 제주의 독특한 화산 지형과 유난히 혹독한 바람에 대해 작가가 받은 깊은 인상이 담겨있습니다. 먼로가 선보이는 빛의 향연은 그가 오랜 시간 축적해온 영감을 광활하게 맞닿은 땅과 하늘을 배경으로 표출하는 기쁨과 경외감입니다. 그 영감의 원천은 바로 호주 사막의 황혼을 시작으로, 북미와 영국 전역을 무대로 삼고 작품 활동을 하며 이어져 온 그의 오랜 여정이라고 할 수 있습니다. 먼로의 작품은 관람객이 그것을 단순히 바라보는 것에 그치지 않고 그사이를 걷게 하도록 유도합니다. 이때 사람들은 감각적인 경험과 감정, 때로는 경이로움을 느끼게 됩니다. 이는 빛을 형태적이기보다는 추상적이고 정신적인 감각을 자극할 수 있는 매개로 다룬 작가의 심도 있는 이해에서 비롯된 것입니다.</p> <p>더불어, 세계적 명성을 가진 아티스트 \'젠 르윈(Jen Lewin)\', \'톰 프루인(Tom Fruin)\', \'제이슨 크루그먼(Jason Krugman from Kinetic Light Studio)\'의 대표 작품들 또한 제주 LAF의 광활한 야외 전시 공간에 소개됩니다. 제주 LAF의 특별한 실내 컨셉 공간 \'리모리모(Limo Limo)\' 동굴에는 \'장 피고치(Jean Pigozzi)\'의 독특한 \'LimoLand\'와 \'이병찬\' 작가의 대표작, \'제이슨 크루그먼(Jason Krugman)\'의 대형 라이트 작품이 전시됩니다. 이 공간은 관람객에겐 기이하지만, 어딘가 익숙하고, 낯설면서도 흥미진진한 세계로 초대합니다.</p> <p>제주 LAF는 아시아에서 최초로, 세계적인 작가들의 다양한 작품을 소개하며, 제주의 밤을 오롯이 즐길 수 있는 안전하면서도 영감이 가득한 공간으로 거듭나고자 합니다.</p>  </div>',
     sliders: [{
-      src: '/static/images/about/1-1.jpg'
+      src: '/static/images/about/1-1.png'
     }, {
       src: '/static/images/about/1-2.png'
     }, {
@@ -134,6 +132,14 @@ export default {
       src: '/static/images/visit/1-1.jpg'
     }, {
       src: '/static/images/visit/1-2.jpg'
+    }, {
+      src: '/static/images/visit/1-3.jpg'
+    }, {
+      src: '/static/images/visit/1-4.jpg'
+    }, {
+      src: '/static/images/visit/1-5.jpg'
+    }, {
+      src: '/static/images/visit/1-6.jpg'
     }]
   },
   funjoy: {

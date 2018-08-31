@@ -5,7 +5,7 @@
 
     <main class="main" role="main">
       <article class="article single wrap">
-
+        <router-link to="/news" class="ui-link back">←</router-link>
         <h1 class="article-title">{{tag.subtitle}}</h1>
 
         <h2 class="article-date">{{tag.date}}</h2>
