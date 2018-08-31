@@ -65,9 +65,9 @@ body, p, .plyr__time, .plyr { font-family: 'Gotham', Helvetica, Arial, sans-seri
 @media screen and (min-width:1441px) {
   body, p, .plyr__time, .plyr { line-height: 1.736vw; }
 }
-html.cn body, html.cn p { font-family: 'Gotham', 'Hiragino Kaku Gothic Pro', 'WenQuanYi Zen Hei', '微軟正黑體', '蘋果儷中黑', "STHeiti", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif; }
-html.jp body, html.jp p  { font-family: 'Gotham', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
-html.kr body, html.kr p  { font-family: 'Gotham', 'Apple SD Gothic Neo', 'NanumBarunGothic', 'Malgun Gothic', dotum, sans-serif; }
+html.cn body, html.cn p { font-family: 'Hiragino Kaku Gothic Pro', 'WenQuanYi Zen Hei', '微軟正黑體', '蘋果儷中黑', "STHeiti", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif; }
+html.jp body, html.jp p  { font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+html.kr body, html.kr p  { font-family: 'Malgun Gothic', dotum, sans-serif; }
 body { -webkit-font-smoothing: antialiased; }
 h1, .languages li a, .social li, h2, h3, h4, h5, h6, p, a, select, input, label, textarea, span, time { letter-spacing: initial !important; word-spacing: initial; }
 p a { opacity: .6; filter: alpha(opacity=60); }
@@ -450,7 +450,7 @@ text { -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select:
 #channel-side:hover, #channel-side.active { fill: transparent; }
 #channel-side:hover polygon, #channel-side.active polygon { fill: transparent; }
 #RightNav { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
-#top-menu { width: 25.69vw; height: calc(100% - 7.8vw); top: 7.916vw; margin-top: 3px; position: fixed; z-index: 3; overflow-y: scroll; overflow-x: hidden; -webkit-overflow-scrolling: touch; background: url(/static/images/static.gif) repeat 0 0; background-size: cover; }
+#top-menu { width: 25.69vw; height: calc(100% - 7.8vw); top: 7.916vw; margin-top: 3px; position: fixed; z-index: 3; overflow-y: scroll; overflow-x: hidden; -webkit-overflow-scrolling: touch; background-size: cover; }
 #top-menu::-webkit-scrollbar { display: none; width: 0px; background: transparent; }
 #top-menu:after { content: ''; border-right: 3px solid #fff; position: fixed; top: 0; width: 1px; height: 100%; left: 25.69vw; }
 @media only screen and (max-width:767px) {
@@ -461,8 +461,9 @@ text { -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select:
 #top-menu:hover { cursor: url(/static/images/arrow-down.png) 15 58, auto; }
 .show-channel #top-menu { display: none; }
 #top-menu .menu-svg { margin-left: -5px; margin-right: -5px; }
-#top-menu .menu-svg svg { height: auto; }
-*::-ms-backdrop #top-menu .menu-svg svg { height: initial; }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #top-menu .menu-svg svg { height: auto; }
+}
 #top-menu .menu { width: 100%; position: absolute; top: 0; left: 0; }
 @media only screen and (max-width:767px) {
   #top-menu .menu { padding-top: 6rem; }
@@ -964,7 +965,7 @@ body.tickets .vendor-list { clear: both; }
 .about .slider { border-top: 0; margin-top: 0; border-bottom: 2px solid #fff; }
 .about .slick-slide div { line-height: 0; }
 .columns { overflow: hidden; }
-#main-menu svg { background: url(/static/images/static.gif) repeat 0 0; background-size: contain; }
+/* #main-menu svg { background: url(/static/images/static.gif) repeat 0 0; background-size: contain; } */
 .social { margin-left: 10px; }
 .faq-list blockquote { margin-top: 10px; }
 .limolimo .slick-slider { margin-top: 0; border: 0; }
