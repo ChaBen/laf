@@ -10,10 +10,6 @@
 
         <h2 class="article-date">{{tag.date}}</h2>
 
-        <figure>
-          <img :src="tag.src">
-        </figure>
-
         <div class="img">
           <img :src="tag.subsrc">
           <div class="inner" v-html="tag.body"></div>
