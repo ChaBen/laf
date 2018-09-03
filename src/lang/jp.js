@@ -47,7 +47,7 @@ export default {
     }, {
       title: 'Jen Lewin (ジェン・レウィン)<p>Brooklyn, NY</p>',
       body: 'ジェン・レウィンは、ニューヨーク・ブルックリンを基盤にして活動するニューメディア・アーティストでありインタラクティブ彫刻家として国際的にも有名な作家である。大規模のインタラクティブ作品には約20年間彼女が蓄積してきた建築学的な背景知識と先端媒介技術が盛り込まれている。彼女は美術展示の伝統的な方式から抜け出して、有機的かつ電子的な要素を活用して公の場に活力を吹き入れる経験を創造しようとする。このように誕生した彼女の作品にはアート、テクノロジー、コミュニティーが融合されており、その特有の生動感が観覧客を魅了する。<br>技術が融合されたジェン・レウィンの作品はこれまでイスタンブール・ライトフェスティバル、ビビッド・シドニー、アイ・ライト・マリーナベイ、シグナル・フェスティバル、 バーニング・マン、 コロラド・ デンバー・アートビエンナーレ、光州ビエンナーレなどに招待されており、米国全域を越えてメキシコ、ポルトガル、イギリスで彼女の個人展が開かれた。ジェン・レウィンは、MinneapolisのSide Walk Harp、Palo AltoのMagical Harp、コロラドのPromenade、Coral SpringsフロリダのAscentなど世界の多様な場所でインタラクティブ彫刻作品をデザインして設置した。また、ダイナミックな照明設計者としてペンシルバニア州フィラデルフィアではClaes Oldenburg作家と、コロラド州ベイルのLawrence Argentとの共同作業を通じて公共場所に永久的な作品を設置した。<br><br>Instagram @jenlewinstudio',
-      iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/UD1Fh_sZQgU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+      iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/UD1Fh_sZQgU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/3-1.jpg'
       }, {

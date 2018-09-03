@@ -47,7 +47,7 @@ export default {
     }, {
       title: 'Jen Lewin (仁勒温)<p>Brooklyn, NY</p>',
       body: '仁勒温是主要在纽约布鲁克林活动的新媒体艺术互动雕塑家，也是国际知名作家。大规模互动作品凝聚了积累20多年她的建筑学背景知识和尖端媒体技术。她摆脱了美术展览的传统方式，有机地应用电子因素为营造富有活力的公共场所进行了创意尝试。如此这般诞生的作品融合了艺术、科技、社区，用其特有的生动感吸引着观众。<br>仁勒温其融入技术的产品被邀请到伊斯坦布尔灯光节 light festival，雪梨灯光艺术节(Vivid Sydney Festival) ，照亮滨海湾灯光艺术节（Light Marina Bay Festival），闪光佳节（signal festival），火把节（ Burning Man Festival），科罗拉多丹佛艺术双年展，光州双年展等。不仅如此，她还飞越美国在墨西哥，葡萄牙，英国举办了个人展。Jen Lewin在 Minneapolis的 Side Walk Harp, Palo Alto的 Magical Harp，科罗拉多的Promenade, Coral Springs，弗罗里达的 Ascent等世界各地设计并安装了互动雕塑作品。此外，她作为一个动感的照明设计师在宾夕法尼亚费城与Claes Oldenburg作家，与科罗拉多州范尔的Lawrence Argent一起作业在公共场所安装了永久性作品。<br><br>Instagram @jenlewinstudio',
-      iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/UD1Fh_sZQgU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+      iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/UD1Fh_sZQgU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/3-1.jpg'
       }, {

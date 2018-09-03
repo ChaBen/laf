@@ -47,7 +47,7 @@ export default {
     }, {
       title: '젠 르윈<p>브루클린, 뉴욕</p>',
       body: '젠 르윈(Jen Lewin)은 뉴욕 브루클린 기반으로 활동하는 뉴미디어 아티스트이자 인터랙티브 조각가로서 국제적으로도 아주 유명한 작가이다. 대규모 인터랙티브 작품에는 20여 년간 그녀가 축적해온 건축학적인 배경지식과 첨단 매개 기술이 담겨있는 것을 볼 수 있다. 그녀는 미술품 전시의 전통적인 방식을 탈피해, 유기적이면서도 전자적인 여러 요소를 활용하여, 공적인 장소에 활력을 불어넣는 경험을 창조하고자 한다. 이렇게 탄생한 그녀의 작품에는 아트, 테크놀로지, 커뮤니티가 서로 융합되어 있으며, 그 특유의 생동감은 관람객을 사로잡는다.<br><br> 기술이 융합된 그녀의 작품은 그동안 이스탄불 라이트 페스티벌, 비비드 시드니, 아이라이트마리나 베이, 시그널 페스트, 버닝맨, 콜로라도 덴버 아트 비엔날레, 광주 비엔날레 등에 초청되었으며, 미국 전역을 넘어 멕시코, 포르투갈, 영국에서 그녀의 개인전이 열리기도 했다. 지속적인 활동으로 그녀는 Minneapolis의 Side Walk Harp, Palo Alto의 Magical Harp, 콜로라도의 Promenade, Coral Springs 플로리다의 Ascent 등 전 세계 다양한 장소에서 인터랙티브 조각 작품을 디자인하고 설치했다. 또한, 그녀는 다이나믹한 조명설계자로서, 펜실베이니아주 필라델피아에서 Claes Oldenburg 작가와, 콜로라도주 바일의 Lawrence Argent와의 공동 작업을 통해 공공장소에 영구적인 작품을 설치하였다.<br><br> Instagram @jenlewinstudio',
-      iframe: '<iframe width="640" height="360" src="https://player.vimeo.com/video/UD1Fh_sZQgU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+      iframe: '<iframe width="640" height="360" src="https://www.youtube.com/embed/UD1Fh_sZQgU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/3-1.jpg'
       }, {
