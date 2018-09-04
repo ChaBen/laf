@@ -1,5 +1,5 @@
 <template>
-  <nav id="top-menu" role="navigation" style="opacity: 1;">
+  <nav id="top-menu" role="navigation" style="opacity: 0;">
     <div class="menu-svg">
       <svg width="100%" height="2045" viewBox="0 0 377 2045" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
@@ -192,6 +192,10 @@ export default {
         this.on = true;
       }
     });
+
+    // IE 메뉴높이조정
+    this.set_menu();
+    $('#top-menu').css('opacity', 1);
   },
   methods: {
     navigateTo(nav) {
@@ -248,6 +252,16 @@ export default {
     stopGradient() {
       if( !this.on ) return;
       clearInterval(this.animationInt);
+    },
+    set_menu() {
+      if (/*@cc_on!@*/false || !!document.documentMode) {
+        $("body").addClass("ie-page");
+        $("#top-menu").addClass("ie-menu");
+        var h_height = $("header .inner").outerHeight();        
+        var offset = $(".ie-menu#top-menu #Page-1").offset();
+        var inner_menu_height = offset.top - h_height;
+        $(".ie-menu#top-menu .menu-svg").css({"top":"-"+inner_menu_height+"px"});
+      }      
     }
   }
 }

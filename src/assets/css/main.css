@@ -975,3 +975,17 @@ body.tickets .vendor-list { clear: both; }
 .funjoy .slick-slider { margin-top: 0; border-top: 0; }
 .tags li { margin-bottom: 20px; }
 .back { display: inline-block; line-height: 50px; font-size: 50px; }
+
+.ie-menu#top-menu .menu-svg {
+  zoom: 1.34;
+  width: 19vw;
+
+  zoom: 1.41;
+  width: 18vw;
+}
+
+.ie-menu#top-menu .menu-svg svg {
+  min-height: 97.5vw;
+  margin-bottom: -5px;
+
+}
