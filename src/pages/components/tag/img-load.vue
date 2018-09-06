@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <transition name="fade">
-      <img class="icon" :src="src" v-on:load="onLoaded" v-show="loaded">&nbsp;
+      <img :src="src" v-on:load="onLoaded">
     </transition>
   </div>
 </template>
@@ -9,14 +9,9 @@
 <script>
 export default {
   props: ['src'],
-  data() {
-    return {
-      loaded: false
-    }
-  },
   methods: {
     onLoaded() {
-      this.loaded = true;
+      this.$emit('loaded');
     }
   }
 }

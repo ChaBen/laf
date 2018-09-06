@@ -19,7 +19,10 @@
       <section class="sliders">
         <div class="sliders">
           <div class="slider">
-            <div class="slide" v-for="(slide, key) in about.sliders" :key="key"><img-load :src="slide.src"></img-load></div>
+            <div class="slide" v-for="(slide, key) in about.sliders" :key="key">
+              <img-load v-if="key === 0" :src="slide.src" @loaded="imgLoad"></img-load>
+              <img v-else :src="slide.src">
+            </div>
           </div>
         </div>
       </section>
@@ -51,11 +54,15 @@ export default {
       return this.$t('about');
     }
   },
+  methods: {
+    imgLoad() {
+      $('.slider').slick({
+        dots: true,
+        adaptiveHeight: true
+      });
+    }
+  },
   mounted() {
-    $('.slider').slick({
-      dots: true,
-      adaptiveHeight: true
-    });
   }
 }
 </script>

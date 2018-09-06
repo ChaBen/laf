@@ -71,7 +71,7 @@ export default {
     }, {
       title: '제이스 크루그먼<p>브루클린, 뉴욕</p>',
       body: '제이슨 크루그먼(Jason Krugman)은 Tufts University에 다니면서 Economics and Fine Arts를 공부했다. 졸업 후, 그는 훌륭한 예술가로서의 경력을 꿈꾸기보다는 경제와 금융 분야에 집중했다. 그는 골드만삭스(Goldman Sachs)와 메릴린치(Merrill Lynch) 등 금융회사에 근무하며 미국 발 금융 위기 직전까지 신용 거래를 담당하였다.<br><br> 2007년 초, 다가오는 재앙에 대해 전혀 눈치채지 못했던 그는, 다시 학교로 돌아와 관심 있었던 기술과 예술을 공부했다. 학업 중 인터랙티브 아트가 만들어지는 과정을 접하며, 이때 전기 및 커넥터 사용량이 급증하는 것을 인상 깊게 본 그는, NYU의 Interactive Telecommunications Program (ITP)에 다니며 마이크로 컨트롤러, 납땜, 디지털 제작 및 신소재에 관해 탐구하였다. ITP에서 그의 논문 주제는 ‘바람에 민감한 LED 배열’이었다. 이 논문이 카니예 웨스트(Kanye West)에 의해 블로깅 된 것이 발단되어 대형 뮤직 페스티벌 기획사로부터 더 크고 휴대성이 강한 버전을 제작해달라는 상업적인 의뢰를 처음으로 받게 되었다.<br><br> 이후 많은 사람이 그에게 대형 빌딩과 주택에 설치될 영구적인 LED 작품을 의뢰하였다. 현재, 크루그먼은 새로운 형태의 LED 작품 디자인과 제작에 몰두하고 있다. 이를 위해 수작업으로 납땜한 LED 메쉬, 복잡한 케이블 시스템 및 다양한 LED 맞춤형 인쇄 회로 기판을 개발하였다. 특히 그는 3차원 공간에 전기와 조명을 배열하는 작업을 주로 한다. 그의 작품은 광원에 전기를 공급하기 위해 물리적인 구조를 사용하기도 한다. 이러한 방법으로 절연 전선 및 커넥터 없이도 수천 개의 조명을 최소한의 전선 형태로 부드럽게 배치할 수 있게 된다.<br><br> Instagram @jasonkrugman',
-      iframe: '<iframe src="https://www.youtube.com/embed/167614688" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+      iframe: '<iframe src="https://www.youtube.com/embed/SjtR0KcwcC0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/5-1.jpg'
       }, {
@@ -143,7 +143,7 @@ export default {
   funjoy: {
     data: [{
       title: '짚라인 체험<p>단계를 넘어갈수록 스릴 넘치는 4단계 코스</p>',
-      body: '- 이용시간 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터<br><br> - 이용가격<br> 개인(대인,소인) : 30,000원<br> 단체 10명 이상 : 상담전화(064-784-9030) 요망<br><br> - 탑승복장<br> 머리가 긴 고객님께서는 머리를 묶어 주십시오.<br> 발 전체가 가려지는 신발을 착용해 주십시오<br> (샌들, 하이힐 등 불가)<br> 무릎 길이 이상의 바지를 착용하여 주십시오 (치마불가)<br><br> - 탑승제한<br> 몸무게 30KG이하 또는 100KG이상이신분<br> 임산부,심신허약자,심장질환자,기타 근골격계 이상이 있으신 분<br> 고도의 비행 또는 고소공포증이 있으신 분<br> 음주 하신분',
+      body: '- 이용시간<br> 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터<br><br> - 이용가격<br> 개인(대인,소인) : 30,000원<br> 단체 10명 이상 : 상담전화(064-784-9030) 요망<br><br> - 탑승복장<br> 머리가 긴 고객님께서는 머리를 묶어 주십시오.<br> 발 전체가 가려지는 신발을 착용해 주십시오<br> (샌들, 하이힐 등 불가)<br> 무릎 길이 이상의 바지를 착용하여 주십시오 (치마불가)<br><br> - 탑승제한<br> 몸무게 30KG이하 또는 100KG이상이신분<br> 임산부,심신허약자,심장질환자,기타 근골격계 이상이 있으신 분<br> 고도의 비행 또는 고소공포증이 있으신 분<br> 음주 하신분',
       sliders: [{
         src: '/static/images/funjoy/1-1.jpg'
       }, {
@@ -224,14 +224,18 @@ export default {
       title: '콘테스트',
       subtitle: '2018 LAF 디자인 공모전 LIGHT:ART:FESTA CONTENTS CANVAS',
       date: '2018.06.25',
-      src: '/static/images/news/jejulaf-tag-event-1.png',
+      srcs: [],
       subsrc: '/static/images/news/jejulaf-contents-canvas.png'
     }, {
       id: 2,
       title: '이벤트',
       subtitle: '제주라프 #해시태그 이벤트 (하나투어 여행박람회)',
       date: '2018.06.23',
-      src: '/static/images/news/event-img.png',
+      srcs: [{
+        src: '/static/images/news/event-img.png'
+      }, {
+        src: '/static/images/news/jejulaf-tag-event-1.png'
+      }],
       subsrc: '/static/images/news/event-img.png',
       body: '하나투어 여행박람회의 제주라프를 방문해주신 여러분들에게 전하는 감사의 이벤트 *응모방법 하나투어 여행박람회에 방문 하신 분들 중, 제주라프 부스가 보이도록 인증샷을 찍어 인스타 계정에 업로드 해주세요. #제주라프 #라이트아트페스타 필수 *이벤트 응모 기간 2018년 06월 08일 – 06월 15일 *당첨자 발표 2018년 06년 23일(토) - 추첨 후 LAF 공식인스타그램 & 공식블로그 (NAVER) 발표 예정 *이벤트 선물 1등 제주 아시아나 왕복항공권 (3명) 2등 여행용 캐리어(5명) 3등 스타벅스 기프티콘 2만원 상당 (20명)<br>',
       view: '<p><strong>하나투어 여행박람회의 제주라프를 방문해주신<br>여러분들에게 전하는 감사의 이벤트</strong></p> <p>*응모방법</p> <p>하나투어 여행박람회에 방문 하신 분들 중, 제주라프 부스가 보이도록<br> 인증샷을 찍어 인스타 계정에 업로드 해주세요.<br> <em>#제주라프 #라이트아트페스타 필수</em></p> <p>*이벤트 응모 기간<br> 2018년 06월 08일 – 06월 15일</p> <p>*당첨자 발표<br> 2018년 06년 23일(토) - 추첨 후 LAF 공식인스타그램 &amp; 공식블로그 (NAVER) 발표 예정</p> <p>*이벤트 선물<br> 1등 제주 아시아나 왕복항공권 (3명)<br> 2등 여행용 캐리어(5명)<br> 3등 스타벅스 기프티콘 2만원 상당 (20명)</p>'

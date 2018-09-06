@@ -18,7 +18,8 @@
         <div class="slick-list">
           <div class="slideshow-item slick-slide" v-for="(slide, key) in $t('limolimo.sliders')" :key="key">
             <div class="slideshow-image">
-              <img-load :src="slide.src"></img-load>
+              <img-load v-if="key === 0" :src="slide.src" @loaded="imgLoad"></img-load>
+              <img v-else :src="slide.src">
             </div>
             <div class="project-section-text" v-html="slide.title"></div>
           </div>
@@ -35,11 +36,13 @@ import ImgLoad from '@/pages/components/tag/img-load';
 
 export default {
   components: { HeaderComponent, AsideComponent, ImgLoad },
-  mounted() {
-    $('.slick-list').slick({
-      dots: true,
-      adaptiveHeight: true
-    });
+  methods: {
+    imgLoad() {
+      $('.slick-list').slick({
+        dots: true,
+        adaptiveHeight: true
+      });
+    }
   }
 }
 </script>

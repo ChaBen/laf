@@ -71,7 +71,7 @@ export default {
     }, {
       title: 'Jason Krugman<p>Brooklyn, NY</p>',
       body: 'Jason Krugman attended Tufts University and studied Economics and Fine Arts. After graduating, Krugman struggled to imagine a career as a fine artist and instead focused on economics and later finance. He worked at Goldman Sachs and Merrill Lynch processing structured credit trades prior to the financial collapse. In early 2007, with no inkling of the impending calamity, Krugman returned to school to study technology and art. Inspired by the burgeoning use of electricity and code to create interactive art, he enrolled at the Interactive Telecommunications Program (ITP) at NYU. Krugman learned about microcontrollers, soldering, digital fabrication and new materials. His thesis at ITP, a wind sensitive LED array, was blogged about by Kanye West which in turn got him his first commercial commission, making a larger, more portable version to show at several large music festivals. Krugman soon after began receiving inquiries to make permanent LED installations for buildings and people’s homes. Today, Krugman’s practice is still based around the design and execution of new types of LED artworks. He has developed a hand-soldered LED mesh, several cable systems, and a variety of custom printed circuit boards for LED artworks. He specializes in arranging electricity and lights in 3-dimensional space. His sculptures often use their physical structure to conduct electricity to the light sources. This eliminates most of the insulated wiring and connectors allowing thousands of lights to sit softly amongst minimal wire forms.<br><br>Instagram @jasonkrugman',
-      iframe: '<iframe src="https://player.vimeo.com/video/167614688" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+      iframe: '<iframe src="https://www.youtube.com/embed/SjtR0KcwcC0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/5-1.jpg'
       }, {
@@ -135,7 +135,7 @@ export default {
   funjoy: {
     data: [{
       title: '짚라인 체험<p>단계를 넘어갈수록 스릴 넘치는 4단계 코스</p>',
-      body: '- 이용시간 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터<br><br> - 이용가격<br> 개인(대인,소인) : 30,000원<br> 단체 10명 이상 : 상담전화(064-784-9030) 요망<br><br> - 탑승복장<br> 머리가 긴 고객님께서는 머리를 묶어 주십시오.<br> 발 전체가 가려지는 신발을 착용해 주십시오<br> (샌들, 하이힐 등 불가)<br> 무릎 길이 이상의 바지를 착용하여 주십시오 (치마불가)<br><br> - 탑승제한<br> 몸무게 30KG이하 또는 100KG이상이신분<br> 임산부,심신허약자,심장질환자,기타 근골격계 이상이 있으신 분<br> 고도의 비행 또는 고소공포증이 있으신 분<br> 음주 하신분',
+      body: '- 이용시간<br> 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터<br><br> - 이용가격<br> 개인(대인,소인) : 30,000원<br> 단체 10명 이상 : 상담전화(064-784-9030) 요망<br><br> - 탑승복장<br> 머리가 긴 고객님께서는 머리를 묶어 주십시오.<br> 발 전체가 가려지는 신발을 착용해 주십시오<br> (샌들, 하이힐 등 불가)<br> 무릎 길이 이상의 바지를 착용하여 주십시오 (치마불가)<br><br> - 탑승제한<br> 몸무게 30KG이하 또는 100KG이상이신분<br> 임산부,심신허약자,심장질환자,기타 근골격계 이상이 있으신 분<br> 고도의 비행 또는 고소공포증이 있으신 분<br> 음주 하신분',
       sliders: [{
         src: '/static/images/funjoy/1-1.jpg'
       }, {
@@ -215,12 +215,17 @@ export default {
       title: 'CONTEST',
       subtitle: '2018 LAF Design Contest LIGHT:ART:FESTA CONTENTS CANVAS',
       date: '2018.06.25',
-      src: '/static/images/news/jejulaf-tag-event-1.png',
+      srcs: [{
+        src: '/static/images/news/jejulaf-tag-event-1.png'
+      }],
       subsrc: '/static/images/news/jejulaf-contents-canvas.png'
     }, {
       id: 2,
       title: 'event',
       subtitle: 'Jeju LAF #hashtag event (HanaTour Travel Exhibition)',
+      srcs: [{
+        src: '/static/images/news/event-img.png'
+      }],
       date: '2018.06.23',
       body: 'Event of gratitude for all those who visited Jeju Life at the HanaTour Exhibition *How to submit a contest entry ...<br><p>Event of gratitude for all those who visited Jeju<br> Life at the HanaTour Exhibition</p> <p>*How to submit a contest entry<br> Visitors to the HanaTour Exhibition can take a photo with the Jeju Life Booth in the background<br> as proof of visiting the booth. Then upload the photo to your Instagram account. (#Jeju Life #LightArtFesta required)</p>',
       view: '<p>*Period of event contest entry<br> June 8th - 15th 2018</p> <p>*Announcement of Prizewinners<br> June 23rd, 2018 (Sat) - After the drawing, winners will be announced on the LAF<br> Official Instagram account and on the Official Naver Blog</p> <p>*Event gifts<br> 1st prize: Round trip tickets to Jeju Island on Asiana Airlines (3 winners)<br> 2nd prize: Travel carrier (5 winners)<br> 3rd prize: 20,000 won gift certificate at Starbucks (20 winners)</p>'

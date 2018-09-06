@@ -22,7 +22,7 @@
             <p><router-link :to="`/news/${tag.id}`">view more</router-link></p>
           </div>
           <figure>
-            <img :src="tag.src">
+            <img v-for="(img, key) in tag.srcs" :key="key" :src="img.src">
             <div class="inner" v-html="tag.body"></div>
           </figure>
         </article>

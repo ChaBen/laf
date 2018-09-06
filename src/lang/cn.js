@@ -71,7 +71,7 @@ export default {
     }, {
       title: 'Jason Krugman (杰森 克鲁格曼)<p>Brooklyn, NY</p>',
       body: 'Jason Krugman就读于 Tufts University专攻 Economics and Fine Arts。毕业后克鲁格曼没有幻想做一个优秀的艺术家而致力于经济和金融。直到金融崩溃之前他在高盛（Goldman Sachs）和美林证券（Merrill Lynch）工作，负责结构性信用交易。2007年初，没有预感到灾难即将来临的克鲁格曼重新回到了学校学习技术和艺术。在制作互动艺术的过程中，他对急剧增加的电气及对使用编码印象极其深刻。他就读于NYU的 Interactive Telecommunications Program (ITP)研究微型控制器，锡焊，数码制作及新材料。ITP中他的论文主题是排列对风敏感的LED。此论文被坎耶·维斯特(Kanye West)维护网志起第一次拿到了在大型音乐节制作较大携带性能好的版本的商业订单。之后更多人委托克鲁格曼在大型高楼和住宅安装永久性LED作品。 克鲁格曼现专注于新形式的LED作品设计及实施。为此他用手工开发了锡焊的LED网格，复杂的电缆系统及多种LED定做印刷电路板。在3D空间他主要做排列电气和照明作业。他的作品为了给光源供电也采用物理结构，用这个方法没有绝缘线及连接器，也能把数千个照明用最少的钢丝予以分配。<br><br>Instagram @jasonkrugman',
-      iframe: '<iframe src="https://player.vimeo.com/video/167614688" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+      iframe: '<iframe src="https://www.youtube.com/embed/SjtR0KcwcC0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       sliders: [{
         src: '/static/images/artists/5-1.jpg'
       }, {
@@ -135,7 +135,7 @@ export default {
   funjoy: {
     data: [{
       title: '짚라인 체험<p>단계를 넘어갈수록 스릴 넘치는 4단계 코스</p>',
-      body: '- 이용시간 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터<br><br> - 이용가격<br> 개인(대인,소인) : 30,000원<br> 단체 10명 이상 : 상담전화(064-784-9030) 요망<br><br> - 탑승복장<br> 머리가 긴 고객님께서는 머리를 묶어 주십시오.<br> 발 전체가 가려지는 신발을 착용해 주십시오<br> (샌들, 하이힐 등 불가)<br> 무릎 길이 이상의 바지를 착용하여 주십시오 (치마불가)<br><br> - 탑승제한<br> 몸무게 30KG이하 또는 100KG이상이신분<br> 임산부,심신허약자,심장질환자,기타 근골격계 이상이 있으신 분<br> 고도의 비행 또는 고소공포증이 있으신 분<br> 음주 하신분',
+      body: '- 이용시간<br> 하절기 6월 16일~ 10월 15일까지 (오전 9시 ~ 오후 12시 까지) 야간운영 오후 6시부터<br> 동절기 10월 16일 ~ 2월 28일까지 (오전 9시 ~ 오후 11시 까지) 야간운영 오후 5시부터<br><br> - 이용가격<br> 개인(대인,소인) : 30,000원<br> 단체 10명 이상 : 상담전화(064-784-9030) 요망<br><br> - 탑승복장<br> 머리가 긴 고객님께서는 머리를 묶어 주십시오.<br> 발 전체가 가려지는 신발을 착용해 주십시오<br> (샌들, 하이힐 등 불가)<br> 무릎 길이 이상의 바지를 착용하여 주십시오 (치마불가)<br><br> - 탑승제한<br> 몸무게 30KG이하 또는 100KG이상이신분<br> 임산부,심신허약자,심장질환자,기타 근골격계 이상이 있으신 분<br> 고도의 비행 또는 고소공포증이 있으신 분<br> 음주 하신분',
       sliders: [{
         src: '/static/images/funjoy/1-1.jpg'
       }, {
@@ -215,12 +215,17 @@ export default {
       title: '콘테스트',
       subtitle: '2018 LAF 设计征集展 LIGHT:ART:FESTA CONTENTS CANVAS',
       date: '2018.06.25',
-      src: '/static/images/news/jejulaf-tag-event-1.png',
+      srcs: [{
+        src: '/static/images/news/jejulaf-tag-event-1.png'
+      }],
       subsrc: '/static/images/news/jejulaf-contents-canvas.png'
     }, {
       id: 2,
       title: '活动',
       subtitle: '济州LAF#主题标签活动（HANATOUR旅行博览会',
+      srcs: [{
+        src: '/static/images/news/event-img.png'
+      }],
       date: '2018.06.23',
       body: 'HANATOUR旅行博览会向参观济州LAF的游客献上的感谢活动 *申请方法 参加HANATOUR旅行博览会的人中，拍摄可以看到济州LAF展台的认证照片，上传到 Instagram账户上。 (#济州LAF#灯光艺术节必需) *活动申请期间 2018年06月 08日 – 06月 15日 *公布获奖者 2018年06月 23日(周六) – 预定抽奖后在 LAF官方Instagram & 官方博客 (NAVER)上公布 *活动礼物 1等奖 济州韩亚航空往返机票(3人) 2等奖 旅行箱(5人) 3等奖 星巴克礼券，相当于2万韩元 (20人)',
       view: '<p>HANATOUR旅行博览会向参观济州LAF的游客献上的感谢活动</p> <p>*申请方法<br> 参加HANATOUR旅行博览会的人中，拍摄可以看到济州LAF展台的认证照片，上传到 Instagram账户上。<br> (#济州LAF#灯光艺术节必需)</p> <p>*活动申请期间<br> 2018年06月 08日 – 06月 15日</p> <p>*公布获奖者<br> 2018年06月 23日(周六) – 预定抽奖后在 LAF官方Instagram &amp; 官方博客 (NAVER)上公布</p> <p>*活动礼物<br> 1等奖 济州韩亚航空往返机票(3人)<br> 2等奖 旅行箱(5人)<br> 3等奖 星巴克礼券，相当于2万韩元 (20人)</p>'
