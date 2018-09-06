@@ -45,6 +45,18 @@ export default {
         src: 'https://www.youtube.com/embed/9qm_dkt30Eo'
       }, {
         src: 'https://www.youtube.com/embed/7pm6uBQxMhA'
+      }, {
+        src: 'https://www.youtube.com/embed/0lmWabuiMrs'
+      }, {
+        src: 'https://www.youtube.com/embed/GR8pVOO_VfU'
+      }, {
+        src: 'https://www.youtube.com/embed/luuL4kxVcCE'
+      }, {
+        src: 'https://www.youtube.com/embed/VCgtEFlNnZs'
+      }, {
+        src: 'https://www.youtube.com/embed/xVz2RjqAkuU'
+      }, {
+        src: 'https://www.youtube.com/embed/B2aB-1fjyBc'
       }]
     }
   }
