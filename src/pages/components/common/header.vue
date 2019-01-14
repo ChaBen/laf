@@ -20,10 +20,10 @@
       </div>
       <nav id="RightNav" role="navigation">
         <ul class="languages">
-          <li :class="{'active': language == 'en'}"><a href="javascript:void(0)" @click="handleSetLanguage('en')">en</a></li>
-          <li :class="{'active': language == 'kr'}"><a href="javascript:void(0)" @click="handleSetLanguage('kr')">kr</a></li>
-          <li :class="{'active': language == 'cn'}"><a href="javascript:void(0)" @click="handleSetLanguage('cn')">cn</a></li>
-          <li :class="{'active': language == 'jp'}"><a href="javascript:void(0)" @click="handleSetLanguage('jp')">jp</a></li>
+          <li :class="{'active': language == 'USA'}"><a href="javascript:void(0)" @click="handleSetLanguage('USA')">en</a></li>
+          <li :class="{'active': language == 'Korea'}"><a href="javascript:void(0)" @click="handleSetLanguage('Korea')">kr</a></li>
+          <li :class="{'active': language == 'China'}"><a href="javascript:void(0)" @click="handleSetLanguage('China')">cn</a></li>
+          <li :class="{'active': language == 'Japan'}"><a href="javascript:void(0)" @click="handleSetLanguage('Japan')">jp</a></li>
         </ul>
         <form class="MenuSearch" action="http://jejulaf.com/search" data-module-init="search">
           <button class="search-icon" type="submit">

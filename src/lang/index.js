@@ -10,22 +10,22 @@ import jpLocale from './jp';
 Vue.use(VueI18n);
 
 const messages = {
-  kr: {
+  Korea: {
     ...krLocale
   },
-  cn: {
+  China: {
     ...cnLocale
   },
-  en: {
+  USA: {
     ...enLocale
   },
-  jp: {
+  Japan: {
     ...jpLocale
   }
 };
 
 const i18n = new VueI18n({
-  locale: localStorage.getItem('language') || 'kr',
+  locale: localStorage.getItem('language') || 'Korea',
   messages
 });
 

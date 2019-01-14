@@ -14,7 +14,7 @@
       <section class="wrap">
         <article class="article" v-for="(video, key) in videos" :key="key">
           <div class="video">
-            <iframe width="100%" style="height: 27vh;" :src="video.src" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" style="height: 27vh;" :src="`https://www.youtube.com/embed/${video.src}`" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </article>
       </section>
@@ -23,41 +23,25 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex';
 import HeaderComponent from '@/pages/components/common/header';
 import AsideComponent from '@/pages/components/common/aside';
 export default {
   components: { HeaderComponent, AsideComponent },
   data() {
     return {
-      videos: [{
-        src: 'https://www.youtube.com/embed/uzjVAmZ8UsM'
-      }, {
-        src: 'https://www.youtube.com/embed/Ibbc8qMsuHc'
-      }, {
-        src: 'https://www.youtube.com/embed/DOH3UREzQdY'
-      }, {
-        src: 'https://www.youtube.com/embed/nJRODHPBs3w'
-      }, {
-        src: 'https://www.youtube.com/embed/WuCrQTPqUqA'
-      }, {
-        src: 'https://www.youtube.com/embed/LyTuRT0RkAs'
-      }, {
-        src: 'https://www.youtube.com/embed/9qm_dkt30Eo'
-      }, {
-        src: 'https://www.youtube.com/embed/7pm6uBQxMhA'
-      }, {
-        src: 'https://www.youtube.com/embed/0lmWabuiMrs'
-      }, {
-        src: 'https://www.youtube.com/embed/GR8pVOO_VfU'
-      }, {
-        src: 'https://www.youtube.com/embed/luuL4kxVcCE'
-      }, {
-        src: 'https://www.youtube.com/embed/VCgtEFlNnZs'
-      }, {
-        src: 'https://www.youtube.com/embed/xVz2RjqAkuU'
-      }, {
-        src: 'https://www.youtube.com/embed/B2aB-1fjyBc'
-      }]
+      videos: null
+    }
+  },
+  created() {
+    this.getData();
+  },
+  methods: {
+    ...mapActions('channel', ['find']),
+    async getData() {
+      const data = (await this.find()).data;
+      this.videos = data.reverse();
+      console.log(data);
     }
   }
 }

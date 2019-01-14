@@ -943,7 +943,6 @@ td a { padding: .5em .2em; display: inline-block; }
 body.tickets .bodyColumns.four-col .columns .col ul li:nth-child(1) { margin-bottom: 20px; }
 .artist-article.visible .article-title { padding-bottom: 2.4vw; }
 #main-menu svg { background: #000; }
-.ie-page main { overflow-y: hidden; }
 .ie-menu#top-menu .menu-svg { position: relative; }
 body.tickets .section.bodyColumns.two-col { float: left; }
 body.tickets .section.bodyColumns.two-col .inner { float: left; width: 100%; }

@@ -10,11 +10,16 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@feathersjs/authentication-client": "^1.0.10",
+    "@feathersjs/feathers": "^3.3.1",
+    "@feathersjs/socketio-client": "^1.2.1",
+    "feathers-vuex": "^1.6.2",
     "jquery": "^3.3.1",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "slick-carousel": "^1.8.1",
     "snazzy-info-window": "^1.1.1",
+    "socket.io-client": "^2.2.0",
     "vue": "^2.5.2",
     "vue-i18n": "^8.0.0",
     "vue-router": "^3.0.1",
